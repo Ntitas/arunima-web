@@ -9,5 +9,5 @@ const Management = () => {
 export default Management;
 
 const UserCard = () => {
-  return <div></div>;
+  return <div>Management</div>;
 };

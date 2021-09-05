@@ -1,5 +1,5 @@
 const CSR = () => {
-  return <div></div>;
+  return <div>CSR</div>;
 };
 
 export default CSR;
