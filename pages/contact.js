@@ -1,5 +1,15 @@
+import { Container, Row, Col } from "react-bootstrap";
+
 const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <Container className="mt-3 min-vh-100">
+      <Row>
+        <Col sm="auto">
+          <div>Contact</div>
+        </Col>
+      </Row>
+    </Container>
+  );
 };
 
 export default Contact;

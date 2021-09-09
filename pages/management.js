@@ -1,8 +1,14 @@
+import { Container, Row, Col } from "react-bootstrap";
+
 const Management = () => {
   return (
-    <div>
-      <UserCard></UserCard>
-    </div>
+    <Container className="mt-3 min-vh-100">
+      <Row>
+        <Col sm="auto">
+          <UserCard></UserCard>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

@@ -1,1 +1,11 @@
+body {
+  background-image: url("../public/images/bg.jpg");
+}
 
+/* nav {
+  background-color: rgba(34, 10, 99, 0.336) !important;
+} */
+
+p {
+  text-align: justify;
+}

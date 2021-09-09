@@ -1,3 +1,4 @@
+import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/globals.css";
 import Layout from "../components/layout";
@@ -16,9 +17,7 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Layout>
-        <Container className="mt-3 min-vh-100">
-          <Component {...pageProps} />
-        </Container>
+        <Component {...pageProps} />
       </Layout>
     </div>
   );

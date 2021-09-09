@@ -19,45 +19,44 @@ const Header = () => {
     <Navbar
       collapseOnSelect
       expand="lg"
-      bg="light"
       variant="light"
       className="shadow-sm border-bottom"
     >
       <Container fluid>
         <Link href="/">
-          <a className="navbar-brand">Arunima Group</a>
+          <a className="navbar-brand fw-bold">Arunima Group</a>
         </Link>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Link href="/about">
-              <a className="nav-link m-2">About Us</a>
+              <a className="nav-link m-2 fw-bold">About Us</a>
             </Link>
             <Link href="/profile" className="m-2">
-              <a className="nav-link m-2">Company Profile</a>
+              <a className="nav-link m-2 fw-bold">Company Profile</a>
             </Link>
             <Link href="/management" className="m-2">
-              <a className="nav-link m-2">Management</a>
+              <a className="nav-link m-2 fw-bold">Management</a>
             </Link>
             <Link href="/products" className="m-2">
-              <a className="nav-link m-2">Products</a>
+              <a className="nav-link m-2 fw-bold">Products</a>
             </Link>
             <Link href="/gallery" className="m-2">
-              <a className="nav-link m-2">Gallery</a>
+              <a className="nav-link m-2 fw-bold">Gallery</a>
             </Link>
             <Link href="/csr" className="m-2">
-              <a className="nav-link m-2">CSR</a>
+              <a className="nav-link m-2 fw-bold">CSR</a>
             </Link>
-          </Nav>
-          <Nav>
             <Link href="/contact" className="m-2">
-              <a className="nav-link m-2">Contact</a>
-            </Link>
-            <Link href="#" className="m-2">
-              <a className="nav-link m-2">ERP</a>
+              <a className="nav-link m-2 fw-bold">Contact</a>
             </Link>
           </Nav>
+          {/* <Nav>
+            <Link href="#" className="m-2">
+              <a className="nav-link m-2 fw-bold">ERP</a>
+            </Link>
+          </Nav> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
@@ -66,7 +65,7 @@ const Header = () => {
 
 const Footer = () => {
   return (
-    <footer className="footer bg-light border mt-auto py-3">
+    <footer className="footer border mt-5 py-3">
       <Container>
         <span className="text-muted">Version: 1.0</span>
         <span className="text-muted float-end">
