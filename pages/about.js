@@ -5,9 +5,10 @@ import AboutUsPic from "../public/images/about-us.jpg";
 const About = () => {
   return (
     <Container className="mt-3 min-vh-100">
+      <h3 className="fw-bold">About Us</h3>
+
       <Row>
         <Col sm={8}>
-          <h3>About Arunima Group</h3>
           <p>
             The journey of Arunima Group began as a small venture in a
             two-storied building. Today, its business, in the name of Arunima
@@ -29,7 +30,7 @@ const About = () => {
         <Col>
           <Image
             src={AboutUsPic}
-            class="img-fluid rounded shadow"
+            className="img-fluid rounded shadow"
             alt="About Us"
           />
         </Col>

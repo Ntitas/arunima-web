@@ -1,12 +1,85 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 const Management = () => {
+  const top_directors = [
+    {
+      id: 1,
+      name: "Syed Qamrul Huda",
+      desgnation: "Chairman",
+      email: "huda@arunima-group.net",
+      phone: "+880 1990407000",
+      image: "/images/qamrul-huda.jpg",
+    },
+    {
+      id: 2,
+      name: "S A Hossain Farooq",
+      desgnation: "Managing Director",
+      email: "farooq@arunima-group.net",
+      phone: "+880 1990407000",
+      image: "/images/farooq.jpg",
+    },
+    {
+      id: 3,
+      name: "Md. Fakrul Islam",
+      desgnation: "Deputy Managing Director",
+      email: "karukul@arunima-group.net",
+      phone: "+880 1990407000",
+      image: "/images/fakrul.jpg",
+    },
+  ];
+  const directors = [
+    {
+      id: 1,
+      name: "Syed Taisir Huda",
+      desgnation: "Director",
+      email: "taisir@arunima-group.net",
+      phone: "+880 1990407000",
+      image: "/images/taisir-huda.jpg",
+    },
+    {
+      id: 2,
+      name: "Syed Aftab Hossain",
+      desgnation: "Director",
+      email: "ornob@arunima-group.net",
+      phone: "+880 1990407000",
+      image: "/images/aftab.jpg",
+    },
+    {
+      id: 3,
+      name: "Syed Akib Hossain",
+      desgnation: "Director",
+      email: "akib@arunima-group.net",
+      phone: "+880 1990407000",
+      image: "/images/akib.jpg",
+    },
+    {
+      id: 4,
+      name: "Nabil Bin Faruk",
+      desgnation: "Director",
+      email: "nabil@arunima-group.net",
+      phone: "+880 1990407000",
+      image: "/images/nabil.jpg",
+    },
+  ];
+
   return (
     <Container className="mt-3 min-vh-100">
-      <Row>
-        <Col sm="auto">
-          <UserCard></UserCard>
-        </Col>
+      <h3 className="fw-bold">Board of Directors</h3>
+
+      <Row className="justify-content-md-center">
+        {top_directors.map((item) => (
+          <Col sm={3} key={item.id}>
+            <PersonCard data={item} />
+          </Col>
+        ))}
+      </Row>
+
+      <Row className="py-5 justify-content-md-center">
+        {directors.map((item) => (
+          <Col sm={3} key={item.id}>
+            <PersonCard data={item} />
+          </Col>
+        ))}
       </Row>
     </Container>
   );
@@ -14,6 +87,26 @@ const Management = () => {
 
 export default Management;
 
-const UserCard = () => {
-  return <div>Management</div>;
+const PersonCard = (props) => {
+  return (
+    <Card className="shadow text-center bg-light">
+      <Card.Img variant="top" src={props.data.image} />
+      <Card.Body>
+        <Card.Title className="fw-bold">{props.data.name}</Card.Title>
+        <Card.Subtitle className="m-2 text-muted">
+          {props.data.desgnation}
+        </Card.Subtitle>
+        <Card.Text className="text-center">Arunima Group</Card.Text>
+        <a href={"tel:" + props.data.phone} className="text-success pe-3">
+          <i className="bi bi-telephone-fill"></i>
+        </a>
+        <a href={"mailto:" + props.data.email} className="text-secondary pe-3">
+          <i className="bi bi-envelope-fill"></i>
+        </a>
+        {/* <a className="text-primary">
+          <i className="bi bi-linkedin"></i>
+        </a> */}
+      </Card.Body>
+    </Card>
+  );
 };

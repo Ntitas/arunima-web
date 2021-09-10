@@ -22,9 +22,16 @@ const Header = () => {
       variant="light"
       className="shadow-sm border-bottom"
     >
-      <Container fluid>
+      <Container>
         <Link href="/">
-          <a className="navbar-brand fw-bold">Arunima Group</a>
+          <a className="navbar-brand fw-bold">
+            <Image
+              src="/images/logo.png"
+              width="50"
+              height="50"
+              alt="Arunima Group Logo"
+            />
+          </a>
         </Link>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -52,11 +59,6 @@ const Header = () => {
               <a className="nav-link m-2 fw-bold">Contact</a>
             </Link>
           </Nav>
-          {/* <Nav>
-            <Link href="#" className="m-2">
-              <a className="nav-link m-2 fw-bold">ERP</a>
-            </Link>
-          </Nav> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
@@ -67,7 +69,10 @@ const Footer = () => {
   return (
     <footer className="footer border mt-5 py-3">
       <Container>
-        <span className="text-muted">Version: 1.0</span>
+        <span className="text-muted">
+          {" "}
+          &copy; Copyright 2021 Arunima Group. All Rights Reserved.
+        </span>
         <span className="text-muted float-end">
           Developed By: Ntitas IT Ltd.
         </span>
