@@ -25,12 +25,13 @@ const Header = () => {
       <Container>
         <Link href="/">
           <a className="navbar-brand fw-bold">
-            <Image
+            {/* <Image
               src="/images/logo.png"
               width="50"
               height="50"
               alt="Arunima Group Logo"
-            />
+            /> */}
+            Arunima Group
           </a>
         </Link>
 

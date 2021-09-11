@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
-import AboutUsPic from "../public/images/about-us.jpg";
+import AboutUsPic from "../public/images/logo.png";
 
 const About = () => {
   return (
@@ -33,6 +33,21 @@ const About = () => {
             className="img-fluid rounded shadow"
             alt="About Us"
           />
+        </Col>
+      </Row>
+
+      <Row>
+        <Col>
+          <p>
+            DMC Apparels Limited was bought as a small factory and came under
+            the Arunima group in 2004. It was moved to a new building in 2018
+            and is one of the highly-developed washing plants in the country.
+            Our state-of-the-art machinery not only serves the company itself
+            but also caters to the needs of our customers as well. Additionally,
+            the plant has recently been expanded, now having the capacity to
+            wash 40,000 pieces of garments (20,000 pieces of denim and 20,000
+            pieces of non-denim garment) each day.
+          </p>
         </Col>
       </Row>
     </Container>
