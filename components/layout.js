@@ -20,6 +20,7 @@ const Header = () => {
       collapseOnSelect
       expand="lg"
       variant="light"
+      bg="light"
       className="shadow-sm border-bottom"
     >
       <Container>
@@ -68,7 +69,7 @@ const Header = () => {
 
 const Footer = () => {
   return (
-    <footer className="footer border mt-5 py-3">
+    <footer className="footer border mt-5 py-3 bg-light">
       <Container>
         <span className="text-muted">
           {" "}
