@@ -42,9 +42,6 @@ const Header = () => {
             <Link href="/about">
               <a className="nav-link m-2 fw-bold">About Us</a>
             </Link>
-            <Link href="/profile" className="m-2">
-              <a className="nav-link m-2 fw-bold">Company Profile</a>
-            </Link>
             <Link href="/management" className="m-2">
               <a className="nav-link m-2 fw-bold">Management</a>
             </Link>

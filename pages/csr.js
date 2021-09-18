@@ -3,10 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 const CSR = () => {
   return (
     <Container className="mt-3 min-vh-100">
+      <h3 className="fw-bold">CSR</h3>
       <Row>
-        <Col sm="auto">
-          <div>CSR</div>
-        </Col>
+        <Col sm="auto"></Col>
       </Row>
     </Container>
   );
