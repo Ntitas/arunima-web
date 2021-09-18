@@ -1,14 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 
 body {
-  /* background-image: url("../public/images/bg.jpg"); */
-  background-color: #e6e7e8;
+  background-color: rgb(240, 242, 245);
   font-family: "Arvo", sans-serif;
 }
-
-/* nav {
-  background-color: rgba(34, 10, 99, 0.336) !important;
-} */
 
 a {
   color: #10125a !important;
@@ -19,7 +14,5 @@ p {
 }
 
 h3 {
-  border-bottom: 3px dashed #a0822b;
-  margin-bottom: 20px;
   color: #10125a !important;
 }

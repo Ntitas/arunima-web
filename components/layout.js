@@ -20,7 +20,7 @@ const Header = () => {
       collapseOnSelect
       expand="lg"
       variant="light"
-      bg="light"
+      bg="white"
       className="shadow-sm border-bottom"
     >
       <Container>
@@ -39,8 +39,8 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Link href="/about">
-              <a className="nav-link m-2 fw-bold">About Us</a>
+            <Link href="/profile">
+              <a className="nav-link m-2 fw-bold">Profile</a>
             </Link>
             <Link href="/management" className="m-2">
               <a className="nav-link m-2 fw-bold">Management</a>
@@ -66,7 +66,7 @@ const Header = () => {
 
 const Footer = () => {
   return (
-    <footer className="footer border mt-5 py-3 bg-light">
+    <footer className="footer border mt-5 py-3 bg-white">
       <Container>
         <span className="text-muted">
           {" "}

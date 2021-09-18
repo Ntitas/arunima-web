@@ -64,7 +64,7 @@ const Management = () => {
 
   return (
     <Container className="mt-3 min-vh-100">
-      <h3 className="fw-bold">Board of Directors</h3>
+      <h3 className="text-center fw-bold p-3">Board of Directors</h3>
 
       <Row className="justify-content-md-center">
         {top_directors.map((item) => (
@@ -89,7 +89,7 @@ export default Management;
 
 const PersonCard = (props) => {
   return (
-    <Card className="shadow text-center bg-light">
+    <Card className="shadow-sm text-center bg-white">
       <Card.Img variant="top" src={props.data.image} />
       <Card.Body>
         <Card.Title className="fw-bold">{props.data.name}</Card.Title>

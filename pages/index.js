@@ -1,53 +1,24 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Col, Row, Container } from "react-bootstrap";
-import BannerPic from "../public/images/banner.jpg";
-import logo from "../public/images/logo.png";
+
 import Widget from "../components/widget";
 
-export default function Home() {
-  const widgetsData = [
-    {
-      key: "1",
-      title: "Title",
-      subTitle: "Sub Title",
-      image: "",
-    },
-    {
-      key: "2",
-      title: "Title",
-      subTitle: "Sub Title",
-      image: "",
-    },
-    {
-      key: "3",
-      title: "Title",
-      subTitle: "Sub Title",
-      image: "",
-    },
-    {
-      key: "4",
-      title: "Title",
-      subTitle: "Sub Title",
-      image: "",
-    },
-  ];
+import bannerPic from "../public/images/banner.jpg";
+import logo from "../public/images/logo.png";
+import valuesPic from "../public/images/values.png";
+import certPic from "../public/images/certifications.png";
 
+export default function Home() {
   return (
     <Container className="mt-3 min-vh-100">
       <Row className="mb-3">
-        <Image src={BannerPic} alt="Arunima" className="rounded shadow" />
+        <Image src={bannerPic} alt="Arunima" className="rounded shadow-sm" />
       </Row>
 
-      <Row className="mb-3">
-        {widgetsData.map((item) => (
-          <Col key={item.key}>
-            <Widget data={item} />
-          </Col>
-        ))}
-      </Row>
+      <h3 className="text-center fw-bold p-3">About Us</h3>
 
-      <Row className="rounded shadow p-3 bg-light">
+      <Row className="rounded shadow-sm mb-3 p-5 bg-white">
         <Col sm={8}>
           <p>
             The journey of Arunima Group began as a small venture in a
@@ -74,6 +45,51 @@ export default function Home() {
             alt="About Us"
           />
         </Col>
+      </Row>
+
+      <h3 className="text-center fw-bold p-3">Facts</h3>
+
+      <Widget />
+
+      <h3 className="text-center fw-bold p-3">Values</h3>
+
+      <Row className="rounded shadow-sm mb-3 p-5 bg-white">
+        <Image src={valuesPic} alt="Arunima" className="rounded shadow-sm" />
+      </Row>
+
+      <h3 className="text-center fw-bold p-3">Our Clients</h3>
+
+      <Row className="mb-3">
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+      </Row>
+
+      <Row className="mb-3">
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+      </Row>
+
+      <Row className="mb-3">
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+      </Row>
+
+      <h3 className="text-center fw-bold p-3">Certifications</h3>
+
+      <Row className="rounded shadow-sm mb-3 p-5 bg-white">
+        <Image src={certPic} alt="Arunima" className="rounded shadow-sm" />
       </Row>
     </Container>
   );
