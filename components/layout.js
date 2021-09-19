@@ -69,8 +69,7 @@ const Footer = () => {
     <footer className="footer border mt-5 py-3 bg-white">
       <Container>
         <span className="text-muted">
-          {" "}
-          &copy; Copyright 2021 Arunima Group. All Rights Reserved.
+          &copy; 2021 Arunima Group. All Rights Reserved.
         </span>
         <span className="text-muted float-end">
           Developed By: Ntitas IT Ltd.

@@ -16,3 +16,7 @@ p {
 h3 {
   color: #10125a !important;
 }
+
+.carousel-caption {
+  top: 25%;
+}

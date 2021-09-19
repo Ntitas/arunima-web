@@ -8,7 +8,7 @@ const CSR = () => {
       <h3 className="text-center fw-bold p-3">CSR Activities</h3>
 
       <Row className="rounded shadow bg-light">
-        <Col sm={8} className="p-3">
+        <Col sm={8} className="p-5">
           <p className="fs-4">Orientation on basic labor law:</p>
 
           <p>

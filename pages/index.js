@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Col, Row, Container } from "react-bootstrap";
 
+import Slider from "../components/Slider";
 import Widget from "../components/widget";
 
 import bannerPic from "../public/images/banner.jpg";
@@ -13,7 +14,9 @@ export default function Home() {
   return (
     <Container className="mt-3 min-vh-100">
       <Row className="mb-3">
-        <Image src={bannerPic} alt="Arunima" className="rounded shadow-sm" />
+        {/* <Image src={bannerPic} alt="Arunima" className="rounded shadow-sm" /> */}
+
+        <Slider />
       </Row>
 
       <h3 className="text-center fw-bold p-3">About Us</h3>
@@ -57,33 +60,51 @@ export default function Home() {
         <Image src={valuesPic} alt="Arunima" className="rounded shadow-sm" />
       </Row>
 
+      <h3 className="text-center fw-bold p-3">Videos</h3>
+
+      <Row className="mb-3">
+        <Col className="rounded shadow-sm p-3 me-3 bg-white">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/wLRamn1SxfM"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen="true"
+          ></iframe>
+        </Col>
+        <Col className="rounded shadow-sm p-3 bg-white">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/wLRamn1SxfM"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen="true"
+          ></iframe>
+        </Col>
+      </Row>
+
       <h3 className="text-center fw-bold p-3">Our Clients</h3>
 
-      <Row className="mb-3">
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+      <Row>
+        <Col className="rounded shadow-sm m-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm m-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm m-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm m-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm m-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm m-3 p-5 bg-white"></Col>
       </Row>
 
-      <Row className="mb-3">
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-      </Row>
-
-      <Row className="mb-3">
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
-        <Col className="rounded shadow-sm me-3 p-5 bg-white"></Col>
+      <Row>
+        <Col className="rounded shadow-sm m-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm m-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm m-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm m-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm m-3 p-5 bg-white"></Col>
+        <Col className="rounded shadow-sm m-3 p-5 bg-white"></Col>
       </Row>
 
       <h3 className="text-center fw-bold p-3">Certifications</h3>
