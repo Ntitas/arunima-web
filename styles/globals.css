@@ -13,7 +13,8 @@ p {
   text-align: justify;
 }
 
-h3 {
+h3,
+h5 {
   color: #10125a !important;
 }
 

@@ -1,14 +1,14 @@
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
-import csrPic from "../public/images/csr.jpg";
+import childPic from "../public/images/children.png";
 
 const CSR = () => {
   return (
     <Container className="mt-3 min-vh-100">
       <h3 className="text-center fw-bold p-3">CSR Activities</h3>
 
-      <Row className="rounded shadow bg-light">
-        <Col sm={8} className="p-5">
+      <Row className="rounded shadow bg-white">
+        <Col sm={7} className="p-5">
           <p className="fs-4">Orientation on basic labor law:</p>
 
           <p>
@@ -46,8 +46,12 @@ const CSR = () => {
             workers.
           </p>
         </Col>
-        <Col className="mt-5">
-          <Image src={csrPic} className="img-fluid rounded shadow" alt="CSR" />
+        <Col className="mt-sm-5 p-5">
+          <Image
+            src={childPic}
+            className="img-fluid rounded shadow"
+            alt="CSR"
+          />
         </Col>
       </Row>
     </Container>
