@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Col, Row, Container } from "react-bootstrap";
 
-import Slider from "../components/Slider";
+import MySlider from "../components/MySlider";
 import Widget from "../components/widget";
 
 import bannerPic from "../public/images/banner.jpg";
@@ -16,7 +16,7 @@ export default function Home() {
       <Row className="mb-3">
         {/* <Image src={bannerPic} alt="Arunima" className="rounded shadow-sm" /> */}
 
-        <Slider />
+        <MySlider />
       </Row>
 
       <h3 className="text-center fw-bold p-3">About Us</h3>

@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Carousel } from "react-bootstrap";
 import sliderImage from "../public/images/banner.jpg";
 
-const Slider = () => {
+const MySlider = () => {
   return (
     <Carousel fade>
       <Carousel.Item>
@@ -19,4 +19,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default MySlider;
