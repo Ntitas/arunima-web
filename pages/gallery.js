@@ -1,4 +1,5 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import ModalImage from "react-modal-image";
 
 const Gallery = () => {
   const first_row = [
@@ -255,6 +256,15 @@ const Gallery = () => {
       <Row className="justify-content-md-center">
         {first_row.map((item) => (
           <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
+            {/* <ModalImage
+              key={item.id}
+              small={item.id}
+              large={item.id}
+              alt={item.id}
+              hideDownload={true}
+              hideZoom={true}
+              className="gallery-image"
+            /> */}
             <PersonCard data={item} />
           </Col>
         ))}

@@ -1,97 +1,87 @@
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import ModalImage from "react-modal-image";
-const Gap = () => {
+import { Container, Row, Col, Card } from "react-bootstrap";
+const Rndl = () => {
   const first_row = [
     {
       id: 1,
-      image: "/images/gap1.jfif",
+      image: "/images/rndl1.jfif",
     },
     {
       id: 2,
-      image: "/images/gap2.jfif",
+      image: "/images/rndl2.jfif",
     },
     {
       id: 3,
-      image: "/images/gap3.jpg",
+      image: "/images/rndl3.jfif",
     },
     {
       id: 4,
-      image: "/images/gap4.jpg",
+      image: "/images/rndl4.jfif",
     },
   ];
+
   const secound_row = [
     {
       id: 1,
-      image: "/images/gap5.jpg",
+      image: "/images/rndl5.jfif",
     },
     {
       id: 2,
-      image: "/images/gap6.jpg",
+      image: "/images/rndl6.jfif",
     },
     {
       id: 3,
-      image: "/images/gap7.jpg",
+      image: "/images/rndl7.jfif",
     },
     {
       id: 4,
-      image: "/images/gap8.jpg",
+      image: "/images/rndl8.jfif",
     },
   ];
 
   const third_row = [
     {
       id: 1,
-      image: "/images/gap9.jpg",
+      image: "/images/rndl9.jfif",
     },
     {
       id: 2,
-      image: "/images/gap10.jpg",
+      image: "/images/rndl10.jfif",
     },
     {
       id: 3,
-      image: "/images/gap11.jpg",
+      image: "/images/rndl11.jfif",
     },
     {
       id: 4,
-      image: "/images/gap12.jpg",
+      image: "/images/rndl12.jfif",
     },
   ];
-
   const fourth_row = [
     {
       id: 1,
-      image: "/images/gap13.jfif",
+      image: "/images/rndl13.jfif",
     },
     {
       id: 2,
-      image: "/images/gap14.jfif",
+      image: "/images/rndl14.jfif",
     },
     {
       id: 3,
-      image: "/images/gap15.jfif",
+      image: "/images/rndl15.jfif",
     },
     {
       id: 4,
-      image: "/images/gap16.jfif",
+      image: "/images/rndl16.jfif",
     },
   ];
-
   const fifth_row = [
     {
       id: 1,
-      image: "/images/gap17.jfif",
+      image: "/images/rndl17.jfif",
     },
     {
       id: 2,
-      image: "/images/gap18.jfif",
-    },
-    {
-      id: 3,
-      image: "/images/gap19.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/gap20.jfif",
+      image: "/images/rndl18.jfif",
     },
   ];
 
@@ -114,7 +104,6 @@ const Gap = () => {
           </Col>
         ))}
       </Row>
-
       <Row className="justify-content-md-center">
         {third_row.map((item) => (
           <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
@@ -122,7 +111,6 @@ const Gap = () => {
           </Col>
         ))}
       </Row>
-
       <Row className="justify-content-md-center">
         {fourth_row.map((item) => (
           <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
@@ -130,7 +118,6 @@ const Gap = () => {
           </Col>
         ))}
       </Row>
-
       <Row className="justify-content-md-center">
         {fifth_row.map((item) => (
           <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
@@ -142,7 +129,7 @@ const Gap = () => {
   );
 };
 
-export default Gap;
+export default Rndl;
 
 const PersonCard = (props) => {
   return (

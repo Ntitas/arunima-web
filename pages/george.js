@@ -1,148 +1,106 @@
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
-const George = () => {
-  const first_row = [
-    {
-      id: 1,
-      image: "/images/geo1.jfif",
-    },
-    {
-      id: 2,
-      image: "/images/geo2.jfif",
-    },
-    {
-      id: 3,
-      image: "/images/geo3.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/geo4.jpg",
-    },
-  ];
+import React from "react";
+import { Container } from "react-bootstrap";
 
-  const secound_row = [
-    {
-      id: 1,
-      image: "/images/geo5.jpg",
-    },
-    {
-      id: 2,
-      image: "/images/geo6.jpg",
-    },
-    {
-      id: 3,
-      image: "/images/geo7.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/geo8.jpg",
-    },
-  ];
+import ModalImage from "react-modal-image";
 
-  const third_row = [
-    {
-      id: 1,
-      image: "/images/geo9.jpg",
-    },
-    {
-      id: 2,
-      image: "/images/geo10.jpg",
-    },
-    {
-      id: 3,
-      image: "/images/geo11.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/geo12.jpg",
-    },
-  ];
+const george = () => {
+  const images = {
+    // name: "React",
+    photos: [
+      {
+        url: "/images/geo1.jfif",
+        name: "",
+      },
+      {
+        url: "/images/geo2.jfif",
+        name: "",
+      },
+      {
+        url: "/images/geo3.jpg",
+        name: "",
+      },
+      {
+        url: "/images/geo4.jpg",
+        name: "",
+      },
+      {
+        url: "/images/geo5.jpg",
+        name: "",
+      },
+      {
+        url: "/images/geo6.jpg",
+        name: "",
+      },
+      {
+        url: "/images/geo7.jpg",
+        name: "",
+      },
+      {
+        url: "/images/geo8.jpg",
+        name: "",
+      },
+      {
+        url: "/images/geo9.jpg",
+        name: "",
+      },
+      {
+        url: "/images/geo10.jpg",
+        name: "",
+      },
+      {
+        url: "/images/geo11.jpg",
+        name: "",
+      },
+      {
+        url: "/images/geo12.jpg",
+        name: "",
+      },
+      {
+        url: "/images/geo13.jpg",
+        name: "",
+      },
+      {
+        url: "/images/geo14.jpg",
+        name: "",
+      },
+      {
+        url: "/images/geo15.jpg",
+        name: "",
+      },
+      {
+        url: "/images/geo16.jpg",
+        name: "",
+      },
 
-  const fifth_row = [
-    {
-      id: 1,
-      image: "/images/geo13.jpg",
-    },
-    {
-      id: 2,
-      image: "/images/geo14.jpg",
-    },
-    {
-      id: 3,
-      image: "/images/geo15.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/geo16.jpg",
-    },
-  ];
-
-  const sixth_row = [
-    {
-      id: 1,
-      image: "/images/geo17.jpg",
-    },
-    {
-      id: 2,
-      image: "/images/geo18.jpg",
-    },
-  ];
+      {
+        url: "/images/geo17.jpg",
+        name: "",
+      },
+      {
+        url: "/images/geo18.jpg",
+        name: "",
+      },
+    ],
+  };
 
   return (
-    <Container className="mt-3 min-vh-100">
-      <h3 className="text-center fw-bold p-3"></h3>
-
-      <Row className="justify-content-md-center">
-        {first_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {secound_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {third_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {fifth_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {sixth_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
+    <Container>
+      <div className="gallery">
+        {images.photos &&
+          images.photos.map((photo) => (
+            <ModalImage
+              key={photo}
+              small={photo.url}
+              large={photo.url}
+              alt={photo.name}
+              hideDownload={true}
+              hideZoom={true}
+              className="gallery-image"
+            />
+          ))}
+      </div>
     </Container>
   );
 };
 
-export default George;
-
-const PersonCard = (props) => {
-  return (
-    <Card
-      className="shadow-sm text-center bg-white"
-      style={{ paddingTop: "40px" }}
-    >
-      <Card.Img variant="top" src={props.data.image} />
-    </Card>
-  );
-};
+export default george;
