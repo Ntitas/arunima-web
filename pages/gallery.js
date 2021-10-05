@@ -2,397 +2,249 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import ModalImage from "react-modal-image";
 
 const Gallery = () => {
-  const first_row = [
+  const photos = [
     {
-      id: 1,
-      image: "/images/picture_1.jpg",
+      key: 1,
+      url: "/images/picture_1.jpg",
     },
     {
-      id: 2,
-      image: "/images/picture_2.jpg",
+      key: 2,
+      url: "/images/picture_2.jpg",
     },
     {
-      id: 3,
-      image: "/images/picture_3.jpg",
+      key: 3,
+      url: "/images/picture_3.jpg",
     },
     {
-      id: 4,
-      image: "/images/picture_4.jpg",
-    },
-  ];
-
-  const secound_row = [
-    {
-      id: 1,
-      image: "/images/5.jpg",
+      key: 4,
+      url: "/images/picture_4.jpg",
     },
     {
-      id: 2,
+      key: 5,
+      url: "/images/5.jpg",
+    },
+    {
+      key: 6,
       image: "/images/picture_6.jpg",
     },
     {
-      id: 3,
-      image: "/images/picture_55.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/picture_56.jfif",
-    },
-  ];
-
-  const third_row = [
-    {
-      id: 1,
-      image: "/images/picture_10.jpg",
-    },
-    {
-      id: 2,
-      image: "/images/picture_11.jpg",
-    },
-    {
-      id: 3,
-      image: "/images/picture_12.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/picture_13.jpg",
-    },
-  ];
-
-  const fourth_row = [
-    {
-      id: 1,
-      image: "/images/picture_14.jpg",
-    },
-    {
-      id: 2,
-      image: "/images/picture_15.jpg",
-    },
-    {
-      id: 3,
-      image: "/images/picture_16.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/picture_17.jpg",
-    },
-  ];
-
-  const fifth_row = [
-    {
-      id: 1,
-      image: "/images/picture_18.jpg",
-    },
-    {
-      id: 2,
-      image: "/images/picture_19.jpg",
-    },
-    {
-      id: 3,
-      image: "/images/picture_20.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/picture.jpg",
-    },
-  ];
-
-  const sixth_row = [
-    {
-      id: 1,
-      image: "/images/picture_25.jpg",
-    },
-    {
-      id: 2,
-      image: "/images/picture_26.jpg",
-    },
-    {
-      id: 3,
-      image: "/images/picture_27.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/picture_30.jpg",
-    },
-  ];
-
-  const seventh_row = [
-    {
-      id: 1,
-      image: "/images/picture_31.jpg",
-    },
-    {
-      id: 2,
-      image: "/images/picture_32.jpg",
-    },
-    {
-      id: 3,
-      image: "/images/picture_33.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/picture_34.jpg",
-    },
-  ];
-
-  const eighth_row = [
-    {
-      id: 1,
-      image: "/images/picture_35.jpg",
-    },
-    {
-      id: 2,
-      image: "/images/picture_36.jpg",
-    },
-    {
-      id: 3,
-      image: "/images/picture_37.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/picture_38.jpg",
-    },
-  ];
-
-  const ninth_row = [
-    {
-      id: 1,
-      image: "/images/picture_39.jpg",
-    },
-    {
-      id: 2,
-      image: "/images/picture_40.jpg",
-    },
-    {
-      id: 3,
-      image: "/images/picture_41.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/picture_42.jpg",
-    },
-  ];
-
-  const tenth_row = [
-    {
-      id: 1,
-      image: "/images/picture_43.jpg",
-    },
-    {
-      id: 2,
-      image: "/images/picture_44.jpg",
-    },
-    {
-      id: 3,
-      image: "/images/picture_45.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/picture_46.jpg",
-    },
-  ];
-
-  const eleventh_row = [
-    {
-      id: 1,
-      image: "/images/picture_47.jpg",
-    },
-    {
-      id: 2,
-      image: "/images/picture_48.jpg",
-    },
-    {
-      id: 3,
-      image: "/images/picture_49.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/picture_50.jpg",
-    },
-  ];
-
-  const twelveth_row = [
-    {
-      id: 1,
-      image: "/images/picture_57.jfif",
-    },
-    {
-      id: 2,
-      image: "/images/picture_52.jfif",
-    },
-    {
-      id: 3,
-      image: "/images/picture_53.jfif",
-    },
-    {
-      id: 4,
-      image: "/images/picture_54.jpg",
-    },
-  ];
-
-  const thirteenth_row = [
-    {
-      id: 1,
+      key: 7,
       image: "/images/picture_7.jpg",
     },
     {
-      id: 2,
+      key: 8,
+      image: "/images/picture_8.jfif",
+    },
+    {
+      key: 9,
       image: "/images/picture_9.jpg",
     },
     {
-      id: 3,
-      image: "/images/picture_51.jpg",
+      key: 10,
+      url: "/images/picture_10.jpg",
     },
     {
-      id: 4,
-      image: "/images/picture_8.jfif",
+      key: 11,
+      url: "/images/picture_12.jpg",
+    },
+    {
+      key: 12,
+      url: "/images/picture_13.jpg",
+    },
+
+    {
+      key: 13,
+      url: "/images/picture_14.jpg",
+    },
+    {
+      key: 14,
+      url: "/images/picture_15.jpg",
+    },
+    {
+      key: 15,
+      url: "/images/picture_16.jpg",
+    },
+    {
+      key: 16,
+      url: "/images/picture_17.jpg",
+    },
+
+    {
+      key: 17,
+      url: "/images/picture_18.jpg",
+    },
+    {
+      key: 18,
+      url: "/images/picture_19.jpg",
+    },
+    {
+      key: 19,
+      url: "/images/picture_20.jpg",
+    },
+    {
+      key: 20,
+      url: "/images/picture.jpg",
+    },
+
+    {
+      key: 21,
+      url: "/images/picture_25.jpg",
+    },
+    {
+      key: 22,
+      url: "/images/picture_26.jpg",
+    },
+    {
+      key: 23,
+      url: "/images/picture_27.jpg",
+    },
+    {
+      key: 24,
+      url: "/images/picture_30.jpg",
+    },
+
+    {
+      key: 25,
+      url: "/images/picture_31.jpg",
+    },
+    {
+      key: 26,
+      url: "/images/picture_32.jpg",
+    },
+    {
+      key: 27,
+      url: "/images/picture_33.jpg",
+    },
+    {
+      key: 28,
+      url: "/images/picture_34.jpg",
+    },
+
+    {
+      key: 29,
+      url: "/images/picture_35.jpg",
+    },
+    {
+      key: 30,
+      url: "/images/picture_36.jpg",
+    },
+    {
+      key: 31,
+      url: "/images/picture_37.jpg",
+    },
+    {
+      key: 32,
+      url: "/images/picture_38.jpg",
+    },
+
+    {
+      key: 33,
+      url: "/images/picture_39.jpg",
+    },
+    {
+      key: 34,
+      url: "/images/picture_40.jpg",
+    },
+    {
+      key: 35,
+      url: "/images/picture_41.jpg",
+    },
+    {
+      key: 36,
+      url: "/images/picture_42.jpg",
+    },
+    {
+      key: 37,
+      url: "/images/picture_43.jpg",
+    },
+    {
+      key: 38,
+      url: "/images/picture_44.jpg",
+    },
+    {
+      key: 39,
+      url: "/images/picture_45.jpg",
+    },
+    {
+      key: 40,
+      url: "/images/picture_46.jpg",
+    },
+
+    {
+      key: 41,
+      url: "/images/picture_47.jpg",
+    },
+    {
+      key: 42,
+      url: "/images/picture_48.jpg",
+    },
+    {
+      key: 43,
+      url: "/images/picture_49.jpg",
+    },
+    {
+      key: 44,
+      url: "/images/picture_50.jpg",
+    },
+
+    {
+      key: 45,
+      url: "/images/picture_57.jfif",
+    },
+    {
+      key: 46,
+      url: "/images/picture_52.jfif",
+    },
+    {
+      key: 47,
+      url: "/images/picture_53.jfif",
+    },
+    {
+      key: 48,
+      url: "/images/picture_54.jpg",
+    },
+
+    {
+      key: 49,
+
+      url: "/images/picture_7.jpg",
+    },
+    {
+      key: 50,
+      image: "/images/picture_9.jpg",
+    },
+    {
+      key: 51,
+      url: "/images/picture_51.jpg",
+    },
+    {
+      key: 52,
+      url: "/images/picture_8.jfif",
     },
   ];
 
   return (
     <Container className="mt-3 min-vh-100">
-      <h3 className="text-center fw-bold p-3"></h3>
+      <h3 className="text-center fw-bold p-3">Gallery</h3>
 
       <Row className="justify-content-md-center">
-        {first_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            {/* <ModalImage
-              key={item.id}
-              small={item.id}
-              large={item.id}
-              alt={item.id}
-              hideDownload={true}
-              hideZoom={true}
-              className="gallery-image"
-            /> */}
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {secound_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {third_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {fourth_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {fifth_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {sixth_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {seventh_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {eighth_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {ninth_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {tenth_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {eleventh_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-      <Row className="justify-content-md-center">
-        {twelveth_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {thirteenth_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
+        {photos &&
+          photos.map((photo) => (
+            <Col sm={3} key={photo.key} className="text-center">
+              <ModalImage
+                key={photo}
+                small={photo.url}
+                large={photo.url}
+                alt={photo.name}
+                hkeyeDownload={true}
+                hkeyeZoom={true}
+                className="gallery-image shadow-sm rounded bg-white m-1 p-3"
+              />
+            </Col>
+          ))}
       </Row>
     </Container>
   );
 };
 
 export default Gallery;
-
-const PersonCard = (props) => {
-  return (
-    <Card
-      className="shadow-sm text-center bg-white"
-      style={{ paddingTop: "40px" }}
-    >
-      <Card.Img variant="top" src={props.data.image} />
-      <Card.Body>
-        {/* <Card.Title className="fw-bold">{props.data.name}</Card.Title>
-        <Card.Subtitle className="m-2 text-muted">
-          {props.data.desgnation}
-        </Card.Subtitle> */}
-        {/* <Card.Text className="text-center">Arunima Group</Card.Text> */}
-        {/* <a href={"tel:" + props.data.phone} className="text-success pe-3">
-          <i className="bi bi-telephone-fill"></i>
-        </a>
-        <a href={"mailto:" + props.data.email} className="text-secondary pe-3">
-          <i className="bi bi-envelope-fill"></i>
-        </a> */}
-        {/* <a className="text-primary">
-          <i className="bi bi-linkedin"></i>
-        </a> */}
-      </Card.Body>
-    </Card>
-  );
-};

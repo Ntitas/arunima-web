@@ -1,6 +1,7 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import ModalImage from "react-modal-image";
 const Matalan = () => {
-  const first_row = [
+  const photos = [
     {
       id: 1,
       image: "/images/matalan1.jfif",
@@ -17,9 +18,7 @@ const Matalan = () => {
       id: 4,
       image: "/images/matalan4.jpg",
     },
-  ];
 
-  const secound_row = [
     {
       id: 1,
       image: "/images/matalan5.jpg",
@@ -40,36 +39,26 @@ const Matalan = () => {
 
   return (
     <Container className="mt-3 min-vh-100">
-      <h3 className="text-center fw-bold p-3"></h3>
+      <h3 className="text-center fw-bold p-3">Matalan</h3>
 
       <Row className="justify-content-md-center">
-        {first_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {secound_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
+        {photos &&
+          photos.map((photo) => (
+            <Col sm={3} key={photo.id} className="text-center">
+              <ModalImage
+                key={photo}
+                small={photo.image}
+                large={photo.image}
+                alt={photo.name}
+                hkeyeDownload={true}
+                hkeyeZoom={true}
+                className="gallery-image shadow-sm rounded bg-white m-1 p-3"
+              />
+            </Col>
+          ))}
       </Row>
     </Container>
   );
 };
 
 export default Matalan;
-
-const PersonCard = (props) => {
-  return (
-    <Card
-      className="shadow-sm text-center bg-white"
-      style={{ paddingTop: "40px" }}
-    >
-      <Card.Img variant="top" src={props.data.image} />
-    </Card>
-  );
-};
