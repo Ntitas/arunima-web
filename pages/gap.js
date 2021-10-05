@@ -1,156 +1,111 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import ModalImage from "react-modal-image";
 const Gap = () => {
-  const first_row = [
+  const photos = [
     {
-      id: 1,
-      image: "/images/gap1.jfif",
+      key: 1,
+      url: "/images/gap1.jfif",
     },
     {
-      id: 2,
-      image: "/images/gap2.jfif",
+      key: 2,
+      url: "/images/gap2.jfif",
     },
     {
-      id: 3,
-      image: "/images/gap3.jpg",
+      key: 3,
+      url: "/images/gap3.jpg",
     },
     {
-      id: 4,
-      image: "/images/gap4.jpg",
-    },
-  ];
-  const secound_row = [
-    {
-      id: 1,
-      image: "/images/gap5.jpg",
+      key: 4,
+      url: "/images/gap4.jpg",
     },
     {
-      id: 2,
-      image: "/images/gap6.jpg",
+      key: 5,
+      url: "/images/gap5.jpg",
     },
     {
-      id: 3,
-      image: "/images/gap7.jpg",
+      key: 6,
+      url: "/images/gap6.jpg",
     },
     {
-      id: 4,
-      image: "/images/gap8.jpg",
-    },
-  ];
-
-  const third_row = [
-    {
-      id: 1,
-      image: "/images/gap9.jpg",
+      key: 7,
+      url: "/images/gap7.jpg",
     },
     {
-      id: 2,
-      image: "/images/gap10.jpg",
+      key: 8,
+      url: "/images/gap8.jpg",
     },
     {
-      id: 3,
-      image: "/images/gap11.jpg",
+      key: 9,
+      url: "/images/gap9.jpg",
     },
     {
-      id: 4,
-      image: "/images/gap12.jpg",
-    },
-  ];
-
-  const fourth_row = [
-    {
-      id: 1,
-      image: "/images/gap13.jfif",
+      key: 10,
+      url: "/images/gap10.jpg",
     },
     {
-      id: 2,
-      image: "/images/gap14.jfif",
+      key: 11,
+      url: "/images/gap11.jpg",
     },
     {
-      id: 3,
-      image: "/images/gap15.jfif",
+      key: 12,
+      url: "/images/gap12.jpg",
     },
     {
-      id: 4,
-      image: "/images/gap16.jfif",
-    },
-  ];
-
-  const fifth_row = [
-    {
-      id: 1,
-      image: "/images/gap17.jfif",
+      key: 13,
+      url: "/images/gap13.jfif",
     },
     {
-      id: 2,
-      image: "/images/gap18.jfif",
+      key: 14,
+      url: "/images/gap14.jfif",
     },
     {
-      id: 3,
-      image: "/images/gap19.jpg",
+      key: 15,
+      url: "/images/gap15.jfif",
     },
     {
-      id: 4,
-      image: "/images/gap20.jfif",
+      key: 16,
+      url: "/images/gap16.jfif",
+    },
+    {
+      key: 17,
+      url: "/images/gap17.jfif",
+    },
+    {
+      key: 18,
+      url: "/images/gap18.jfif",
+    },
+    {
+      key: 19,
+      url: "/images/gap19.jpg",
+    },
+    {
+      key: 20,
+      url: "/images/gap20.jfif",
     },
   ];
 
   return (
     <Container className="mt-3 min-vh-100">
-      <h3 className="text-center fw-bold p-3"></h3>
+      <h3 className="text-center fw-bold p-3">Gap</h3>
 
       <Row className="justify-content-md-center">
-        {first_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {secound_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {third_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {fourth_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
-      </Row>
-
-      <Row className="justify-content-md-center">
-        {fifth_row.map((item) => (
-          <Col sm={3} key={item.id} style={{ paddingBottom: "50px" }}>
-            <PersonCard data={item} />
-          </Col>
-        ))}
+        {photos &&
+          photos.map((photo) => (
+            <Col sm={3} key={photo.key} className="text-center">
+              <ModalImage
+                key={photo}
+                small={photo.url}
+                large={photo.url}
+                alt={photo.name}
+                hkeyeDownload={true}
+                hkeyeZoom={true}
+                className="gallery-image shadow-sm rounded bg-white m-1 p-3"
+              />
+            </Col>
+          ))}
       </Row>
     </Container>
   );
 };
 
 export default Gap;
-
-const PersonCard = (props) => {
-  return (
-    <Card
-      className="shadow-sm text-center bg-white"
-      style={{ paddingTop: "40px" }}
-    >
-      <Card.Img variant="top" src={props.data.image} />
-    </Card>
-  );
-};
