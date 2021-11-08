@@ -103,62 +103,72 @@ export default function Home() {
       <Row>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
           <Card
-            style={{
-              width: "240px",
-              height: "150px",
-            }}
+            style={
+              {
+                // width: "240px",
+                // height: "150px",
+              }
+            }
           >
             <Image src={Kontoor} alt="Kontoor" className="rounded shadow-sm" />
           </Card>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
           <Card
-            style={{
-              width: "240px",
-              height: "150px",
-              paddingLeft: "10px",
-              paddingRight: "10px",
-              paddingBottom: "10px",
-              paddingTop: "10px",
-            }}
+            style={
+              {
+                // width: "240px",
+                // height: "150px",
+                // paddingLeft: "10px",
+                // paddingRight: "10px",
+                // paddingBottom: "10px",
+                // paddingTop: "10px",
+              }
+            }
           >
             <Image src={vf} alt="VF" className="rounded shadow-sm" />
           </Card>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
           <Card
-            style={{
-              width: "240px",
-              height: "150px",
-              paddingLeft: "10px",
-              paddingRight: "10px",
-              paddingBottom: "10px",
-              paddingTop: "10px",
-            }}
+            style={
+              {
+                // width: "240px",
+                // height: "150px",
+                // paddingLeft: "10px",
+                // paddingRight: "10px",
+                // paddingBottom: "10px",
+                // paddingTop: "10px",
+              }
+            }
           >
             <Image src={Walmart} alt="WALMART" className="rounded shadow-sm" />
           </Card>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
           <Card
-            style={{
-              width: "240px",
-              height: "150px",
-              // paddingLeft: "10px",
-              // paddingRight: "10px",
-              // paddingBottom: "10px",
-              // paddingTop: "10px",
-            }}
+            style={
+              {
+                // width: "240px",
+                // height: "150px",
+                // paddingLeft: "10px",
+                // paddingRight: "10px",
+                // paddingBottom: "10px",
+                // paddingTop: "10px",
+              }
+            }
           >
             <Image src={matalan} alt="Matalan" className="rounded shadow-sm" />
           </Card>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
           <Card
-            style={{
-              width: "240px",
-              height: "150px",
-            }}
+            style={
+              {
+                // width: "240px",
+                // height: "150px",
+              }
+            }
           >
             <Image src={primark} alt="Primark" className="rounded shadow-sm" />
           </Card>
@@ -168,58 +178,68 @@ export default function Home() {
       <Row>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
           <Card
-            style={{
-              width: "240px",
-              height: "150px",
-            }}
+            style={
+              {
+                // width: "240px",
+                // height: "150px",
+              }
+            }
           >
             <Image src={george} alt="George" className="rounded shadow-sm" />
           </Card>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
           <Card
-            style={{
-              width: "240px",
-              height: "150px",
-            }}
+            style={
+              {
+                // width: "240px",
+                // height: "150px",
+              }
+            }
           >
             <Image src={target} alt="Target" className="rounded shadow-sm" />
           </Card>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
           <Card
-            style={{
-              width: "240px",
-              height: "150px",
-            }}
+            style={
+              {
+                // width: "240px",
+                // height: "150px",
+              }
+            }
           >
             <Image src={belk} alt="Belk" className="rounded shadow-sm" />
           </Card>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
           <Card
-            style={{
-              width: "240px",
-              height: "150px",
-              paddingLeft: "20px",
-              paddingRight: "20px",
-              // paddingBottom: "10px",
-              paddingTop: "30px",
-            }}
+            style={
+              {
+                // width: "240px",
+                // height: "150px",
+                // paddingLeft: "20px",
+                // paddingRight: "20px",
+                // paddingBottom: "10px",
+                // paddingTop: "30px",
+              }
+            }
           >
             <Image src={meijer} alt="Meijer" className="rounded shadow-sm" />
           </Card>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
           <Card
-            style={{
-              width: "240px",
-              height: "150px",
-              // paddingLeft: "20px",
-              // paddingRight: "20px",
-              // paddingBottom: "10px",
-              // paddingTop: "30px",
-            }}
+            style={
+              {
+                // width: "240px",
+                // height: "150px",
+                // paddingLeft: "20px",
+                // paddingRight: "20px",
+                // paddingBottom: "10px",
+                // paddingTop: "30px",
+              }
+            }
           >
             <Image src={nygard2} alt="Nygard2+" className="rounded shadow-sm" />
           </Card>

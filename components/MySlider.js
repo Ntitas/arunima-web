@@ -19,7 +19,7 @@ const MySlider = () => {
           <h1>Welcome to Arunima Group</h1>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <Image
           className="d-block   rounded shadow"
           src={sliderImage1}
@@ -31,7 +31,7 @@ const MySlider = () => {
         <Carousel.Caption>
           <h1></h1>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
       <Carousel.Item>
         <Image
           className="d-block   rounded shadow"
