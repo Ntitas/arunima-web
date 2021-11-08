@@ -11,21 +11,25 @@ const About = () => {
       <h3 className="text-center fw-bold p-3">Arunima Profile</h3>
 
       <Row className="mb-3">
-        <Col className="rounded shadow-sm bg-white p-5 me-3">
-          <Image
-            src="/images/about-us.jpg"
-            alt="about-us"
-            width="550"
-            height="650"
-            className="rounded float-left img-thumbnail"
-          />
-        </Col>
-        <Col className="rounded shadow-sm bg-white p-5">
+        <Col className="rounded shadow-sm bg-white p-4 me-3">
           <Image
             src="/images/DMC2.jpg"
             alt="about"
-            width="550"
-            height="650"
+            width="75%"
+            height="75%"
+            layout="responsive"
+            objectFit="contain"
+            className="rounded float-right img-thumbnail"
+          />
+        </Col>
+        <Col className="rounded shadow-sm bg-white p-4">
+          <Image
+            src="/images/DMC2.jpg"
+            alt="about"
+            width="75%"
+            height="75%"
+            layout="responsive"
+            objectFit="contain"
             className="rounded float-right img-thumbnail"
           />
         </Col>

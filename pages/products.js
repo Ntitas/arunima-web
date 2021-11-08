@@ -14,153 +14,109 @@ import Link from "next/link";
 const Products = () => {
   return (
     <Container className="mt-3 min-vh-100">
-      <h3 className="fw-bold" style={{ paddingBottom: "50px" }}></h3>
+      <h3 className="fw-bold"></h3>
       <Row>
         <Col sm="auto"></Col>
       </Row>
 
       <Container>
         <Row>
-          <Col style={{ paddingBottom: "50px" }}>
-            <Card
-              style={{
-                width: "240px",
-                height: "150px",
-                paddingLeft: "10px",
-                paddingRight: "10px",
-                paddingBottom: "10px",
-                paddingTop: "10px",
-              }}
-            >
+          <Col className="text-center m-3">
+            <Card style={{ width: "240px", height: "150px" }}>
               <Link href="/gap">
                 <Image src={gap} alt="GAP" className="rounded shadow-sm" />
               </Link>
             </Card>
           </Col>
 
-          <Col>
-            <Card
-              style={{
-                width: "240px",
-                height: "150px",
-                paddingLeft: "10px",
-                paddingRight: "10px",
-                paddingBottom: "10px",
-                paddingTop: "10px",
-              }}
-            >
+          <Col className="text-center m-3">
+            <Card style={{ width: "240px", height: "150px" }}>
               <Link href="/george">
-                <Image src={george} alt="GAP" className="rounded shadow-sm" />
+                <Image
+                  src={george}
+                  alt="GEORGE"
+                  className="rounded shadow-sm"
+                />
               </Link>
             </Card>
           </Col>
 
-          <Col>
+          <Col className="text-center m-3">
             <Card style={{ width: "240px", height: "150px" }}>
               <Link href="/kontoor">
-                <Image src={Kontoor} alt="GAP" className="rounded shadow-sm" />
+                <Image
+                  src={Kontoor}
+                  alt="KONTOOR"
+                  className="rounded shadow-sm"
+                />
               </Link>
             </Card>
           </Col>
 
-          <Col>
-            <Card
-              style={{
-                width: "240px",
-                height: "150px",
-                paddingLeft: "10px",
-                paddingRight: "10px",
-                paddingBottom: "10px",
-                paddingTop: "10px",
-              }}
-            >
+          <Col className="text-center m-3">
+            <Card style={{ width: "240px", height: "150px" }}>
               <Link href="/matalan">
-                <Image src={matalan} alt="GAP" className="rounded shadow-sm" />
+                <Image
+                  src={matalan}
+                  alt="MATALAN"
+                  className="rounded shadow-sm"
+                />
               </Link>
             </Card>
           </Col>
 
-          <Col style={{ paddingBottom: "50px" }}>
-            <Card
-              style={{
-                width: "240px",
-                height: "150px",
-                paddingLeft: "10px",
-                paddingRight: "10px",
-                paddingBottom: "10px",
-                paddingTop: "10px",
-              }}
-            >
+          <Col className="text-center m-3">
+            <Card style={{ width: "240px", height: "150px" }}>
               <Link href="/origin">
-                <Image src={Origin} alt="GAP" className="rounded shadow-sm" />
+                <Image
+                  src={Origin}
+                  alt="ORIGIN"
+                  className="rounded shadow-sm"
+                />
               </Link>
             </Card>
           </Col>
 
-          <Col>
-            <Card
-              style={{
-                width: "240px",
-                height: "150px",
-                paddingLeft: "10px",
-                paddingRight: "10px",
-                paddingBottom: "10px",
-                paddingTop: "10px",
-              }}
-            >
+          <Col className="text-center m-3">
+            <Card style={{ width: "240px", height: "150px" }}>
               <Link href="/primark">
-                <Image src={primark} alt="GAP" className="rounded shadow-sm" />
+                <Image
+                  src={primark}
+                  alt="PRIMARK"
+                  className="rounded shadow-sm"
+                />
               </Link>
             </Card>
           </Col>
 
-          <Col>
-            <Card
-              style={{
-                width: "240px",
-                height: "150px",
-                paddingLeft: "10px",
-                paddingRight: "10px",
-                paddingBottom: "10px",
-                paddingTop: "10px",
-              }}
-            >
+          <Col className="text-center m-3">
+            <Card style={{ width: "240px", height: "150px" }}>
               <Link href="/rndl">
-                <Image src={rndl} alt="GAP" className="rounded shadow-sm" />
+                <Image src={rndl} alt="RNDL" className="rounded shadow-sm" />
               </Link>
             </Card>
           </Col>
 
-          <Col>
-            <Card
-              style={{
-                width: "240px",
-                height: "150px",
-                paddingLeft: "10px",
-                paddingRight: "10px",
-                paddingBottom: "10px",
-                paddingTop: "10px",
-              }}
-            >
+          <Col className="text-center m-3">
+            <Card style={{ width: "240px", height: "150px" }}>
               <Link href="/target">
-                <Image src={target} alt="GAP" className="rounded shadow-sm" />
+                <Image
+                  src={target}
+                  alt="TARGET"
+                  className="rounded shadow-sm"
+                />
               </Link>
             </Card>
           </Col>
 
-          <Col>
-            <Card
-              style={{
-                width: "240px",
-                height: "150px",
-                paddingLeft: "10px",
-                paddingRight: "10px",
-                paddingBottom: "10px",
-                paddingTop: "10px",
-              }}
-            >
+          <Col className="text-center m-3">
+            <Card style={{ width: "240px", height: "150px" }}>
               <Link href="/walmart">
-                <Image src={Walmart} alt="GAP" className="rounded shadow-sm" />
+                <Image
+                  src={Walmart}
+                  alt=" Walmart"
+                  className="rounded shadow-sm"
+                />
               </Link>
             </Card>
           </Col>
