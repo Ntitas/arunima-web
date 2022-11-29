@@ -59,6 +59,30 @@ export default function Home() {
         </Col>
       </Row>
 
+      <h3 className="text-center fw-bold p-3">Vision</h3>
+
+      <Row className="rounded shadow-sm mb-3 p-5 bg-white">
+        <Col>
+          <p className="text-center fs-4">Persevere for Perfection.</p>
+        </Col>
+      </Row>
+
+      <h3 className="text-center fw-bold p-3">Mission</h3>
+
+      <Row className="rounded shadow-sm mb-3 p-5 bg-white">
+        <Col>
+          <p>
+            At Arunima, our mission is to persevere for perfection in everything
+            we do, whether it is development, final assembly, or delivery, to
+            ensure that our customers have best possible experience working with
+            us.
+            <br /> We are an Apparel development and manufacturing company
+            committed to skilled craftmanship, compliance, and timeliness while
+            always aspiring for Excellence."
+          </p>
+        </Col>
+      </Row>
+
       <h3 className="text-center fw-bold p-3">Facts</h3>
 
       <Widget />
