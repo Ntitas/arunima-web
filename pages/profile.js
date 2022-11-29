@@ -24,7 +24,7 @@ const About = () => {
         </Col>
         <Col className="rounded shadow-sm bg-white p-4">
           <Image
-            src="/images/DMC2.jpg"
+            src="/images/DMC3.jpg"
             alt="about"
             width="75%"
             height="75%"
