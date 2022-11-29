@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Carousel } from "react-bootstrap";
-import sliderImage from "../public/images/banner.jpg";
-import sliderImage1 from "../public/images/banner4.jpg";
+import sliderImage from "../public/images/landing.jpg";
 import sliderImage2 from "../public/images/banner2.jpg";
 import sliderImage5 from "../public/images/banner5.jpg";
 
@@ -11,8 +10,10 @@ const MySlider = () => {
       <Carousel.Item>
         <Image
           className="d-block rounded shadow"
-          src={sliderImage}
+          src={sliderImage2}
           alt="First slide"
+          width={1400}
+          height={655}
         />
       </Carousel.Item>
       <Carousel.Item>
@@ -27,7 +28,7 @@ const MySlider = () => {
       <Carousel.Item>
         <Image
           className="d-block   rounded shadow"
-          src={sliderImage2}
+          src={sliderImage}
           alt="Secound slide"
           width={1400}
           height={655}
