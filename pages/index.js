@@ -78,7 +78,7 @@ export default function Home() {
             us.
             <br /> We are an Apparel development and manufacturing company
             committed to skilled craftmanship, compliance, and timeliness while
-            always aspiring for Excellence."
+            always aspiring for Excellence.
           </p>
         </Col>
       </Row>
