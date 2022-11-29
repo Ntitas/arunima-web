@@ -14,24 +14,7 @@ const MySlider = () => {
           src={sliderImage}
           alt="First slide"
         />
-
-        <Carousel.Caption>
-          <h1>Welcome to Arunima Group</h1>
-        </Carousel.Caption>
       </Carousel.Item>
-      {/* <Carousel.Item>
-        <Image
-          className="d-block   rounded shadow"
-          src={sliderImage1}
-          alt="Secound slide"
-          width={1400}
-          height={655}
-        />
-
-        <Carousel.Caption>
-          <h1></h1>
-        </Carousel.Caption>
-      </Carousel.Item> */}
       <Carousel.Item>
         <Image
           className="d-block   rounded shadow"
@@ -40,10 +23,6 @@ const MySlider = () => {
           width={1400}
           height={655}
         />
-
-        <Carousel.Caption>
-          <h1>Welcome to Arunima Group</h1>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <Image
@@ -53,10 +32,6 @@ const MySlider = () => {
           width={1400}
           height={655}
         />
-
-        <Carousel.Caption>
-          <h1>Welcome to Arunima Group</h1>
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );

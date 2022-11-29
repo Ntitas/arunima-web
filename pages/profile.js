@@ -217,18 +217,18 @@ const About = () => {
                   >
                     Capacity
                   </ListGroup.Item>
-                  <ListGroup.Item
+                  {/* <ListGroup.Item
                     action
                     href="#link22"
                     className="border-end-0 border-start-0 border-bottom-0"
                     onClick={() => setActive("Machineries List")}
                   >
                     Machineries List
-                  </ListGroup.Item>
+                  </ListGroup.Item> */}
                 </ListGroup>
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="2">
+            {/* <Accordion.Item eventKey="2">
               <Accordion.Header>
                 A.Q.N. Business Associates Ltd.
               </Accordion.Header>
@@ -284,7 +284,7 @@ const About = () => {
                   </ListGroup.Item>
                 </ListGroup>
               </Accordion.Body>
-            </Accordion.Item>
+            </Accordion.Item> */}
           </Accordion>
         </Col>
         <Col className="rounded shadow-sm bg-white p-5">
