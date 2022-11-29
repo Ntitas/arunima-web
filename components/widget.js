@@ -36,7 +36,7 @@ const Widget = () => {
           style={{ fontSize: 64, color: "#d63384" }}
         ></i>
         <p className="text-center text-muted">Knit Wear</p>
-        <p className="text-center fw-bold">9,00,000/mo</p>
+        <p className="text-center fw-bold">9,00,000/month</p>
       </Col>
 
       <Col className="text-center bg-white m-3 p-3 rounded shadow-sm">
@@ -45,7 +45,7 @@ const Widget = () => {
           style={{ fontSize: 64, color: "#20c997" }}
         ></i>
         <p className="text-center text-muted">Woven Bottom</p>
-        <p className="text-center fw-bold">5,50,000/mo</p>
+        <p className="text-center fw-bold">5,50,000/month</p>
       </Col>
 
       <Col className="text-center bg-white m-3 p-3 rounded shadow-sm">
@@ -54,7 +54,7 @@ const Widget = () => {
           style={{ fontSize: 64, color: "#6610f2" }}
         ></i>
         <p className="text-center text-muted">Denim</p>
-        <p className="text-center fw-bold">3,50,000/mo</p>
+        <p className="text-center fw-bold">3,50,000/month</p>
       </Col>
     </Row>
   );
