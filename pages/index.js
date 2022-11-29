@@ -5,22 +5,20 @@ import { Col, Row, Container, Card } from "react-bootstrap";
 import MySlider from "../components/MySlider";
 import Widget from "../components/widget";
 
-import bannerPic from "../public/images/banner.jpg";
 import logo from "../public/images/logo.png";
 import valuesPic from "../public/images/values.png";
 import certPic from "../public/images/certifications.png";
-import vf from "../public/images/vf.png";
-import gap from "../public/images/gap.png";
+import gap from "../public/images/gap2.png";
 import george from "../public/images/george.jpg";
-import Walmart from "../public/images/Walmart.png";
+import Walmart from "../public/images/Walmart1.jpeg";
 import matalan from "../public/images/matalan.png";
 import primark from "../public/images/primark.jpg";
 import target from "../public/images/target.jpg";
 import belk from "../public/images/belk.png";
-import meijer from "../public/images/meijer.png";
-import nygard2 from "../public/images/nygard2.png";
+import meijer from "../public/images/Meijer1.webp";
 import CSR from "../public/images/CSR.png";
 import Kontoor from "../public/images/Kontoor.jpg";
+import pepco from "../public/images/pepco.jpg";
 export default function Home() {
   return (
     <Container className="mt-3 min-vh-100">
@@ -108,7 +106,7 @@ export default function Home() {
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
           <Card>
-            <Image src={vf} alt="VF" className="rounded shadow-sm" />
+            <Image src={gap} alt="GAP" className="rounded shadow-sm" />
           </Card>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
@@ -151,7 +149,7 @@ export default function Home() {
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
           <Card>
-            <Image src={nygard2} alt="Nygard2+" className="rounded shadow-sm" />
+            <Image src={pepco} alt="pepco" className="rounded shadow-sm" />
           </Card>
         </Col>
       </Row>
