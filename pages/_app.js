@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
+        <link rel="shortcut icon" href="/images/logo.png" />
         <title>Arunima Group</title>
         <meta
           property="og:title"
