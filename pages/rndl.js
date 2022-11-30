@@ -1,5 +1,6 @@
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import ModalImage from "react-modal-image";
+import Link from "next/link";
 const Rndl = () => {
   const photos = [
     {
@@ -82,7 +83,17 @@ const Rndl = () => {
 
   return (
     <Container className="mt-3 min-vh-100">
-      <h3 className="text-center fw-bold p-3">R&D</h3>
+      <Row>
+        <Col>
+          <Link href="/products" passHref>
+            <i className="bi bi-arrow-left fs-1 arrow"></i>
+          </Link>
+        </Col>
+        <Col>
+          <h3 className="text-center fw-bold p-3">R&D</h3>
+        </Col>
+        <Col></Col>
+      </Row>
 
       <Row className="justify-content-md-center">
         {photos &&

@@ -1,4 +1,8 @@
 import { Row, Col } from "react-bootstrap";
+import Image from "next/image";
+import knitting from "../public/images/knitting.png";
+import woven from "../public/images/woven.png";
+import denim from "../public/images/denim.png";
 
 const Widget = () => {
   return (
@@ -31,28 +35,19 @@ const Widget = () => {
       </Col>
 
       <Col className="text-center bg-white m-3 p-3 rounded shadow-sm">
-        <i
-          className="bi bi-graph-up"
-          style={{ fontSize: 64, color: "#d63384" }}
-        ></i>
+        <Image src={knitting} alt="Knitting" />
         <p className="text-center text-muted">Knit Wear</p>
-        <p className="text-center fw-bold">9,00,000/month</p>
+        <p className="text-center fw-bold">1,000,000/month</p>
       </Col>
 
       <Col className="text-center bg-white m-3 p-3 rounded shadow-sm">
-        <i
-          className="bi bi-bar-chart"
-          style={{ fontSize: 64, color: "#20c997" }}
-        ></i>
+        <Image src={woven} alt="woven" />
         <p className="text-center text-muted">Woven Bottom</p>
         <p className="text-center fw-bold">5,50,000/month</p>
       </Col>
 
       <Col className="text-center bg-white m-3 p-3 rounded shadow-sm">
-        <i
-          className="bi bi-graph-up"
-          style={{ fontSize: 64, color: "#6610f2" }}
-        ></i>
+        <Image src={denim} alt="woven" />
         <p className="text-center text-muted">Denim</p>
         <p className="text-center fw-bold">3,50,000/month</p>
       </Col>

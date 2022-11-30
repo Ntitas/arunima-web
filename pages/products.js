@@ -22,7 +22,7 @@ const Products = () => {
       <Container>
         <Row>
           <Col className="text-center m-3">
-            <Card style={{ width: "240px", height: "150px" }}>
+            <Card className="product-card">
               <Link href="/gap" passHref>
                 <Image src={gap} alt="GAP" className="rounded shadow-sm" />
               </Link>
@@ -30,7 +30,7 @@ const Products = () => {
           </Col>
 
           <Col className="text-center m-3">
-            <Card style={{ width: "240px", height: "150px" }}>
+            <Card className="product-card">
               <Link href="/george" passHref>
                 <Image
                   src={george}
@@ -42,7 +42,7 @@ const Products = () => {
           </Col>
 
           <Col className="text-center m-3">
-            <Card style={{ width: "240px", height: "150px" }}>
+            <Card className="product-card">
               <Link href="/kontoor" passHref>
                 <Image
                   src={Kontoor}
@@ -54,7 +54,7 @@ const Products = () => {
           </Col>
 
           <Col className="text-center m-3">
-            <Card style={{ width: "240px", height: "150px" }}>
+            <Card className="product-card">
               <Link href="/matalan" passHref>
                 <Image
                   src={matalan}
@@ -66,7 +66,7 @@ const Products = () => {
           </Col>
 
           <Col className="text-center m-3">
-            <Card style={{ width: "240px", height: "150px" }}>
+            <Card className="product-card">
               <Link href="/origin" passHref>
                 <Image
                   src={Origin}
@@ -78,7 +78,7 @@ const Products = () => {
           </Col>
 
           <Col className="text-center m-3">
-            <Card style={{ width: "240px", height: "150px" }}>
+            <Card className="product-card">
               <Link href="/primark" passHref>
                 <Image
                   src={primark}
@@ -90,7 +90,7 @@ const Products = () => {
           </Col>
 
           <Col className="text-center m-3">
-            <Card style={{ width: "240px", height: "150px" }}>
+            <Card className="product-card">
               <Link href="/rndl" passHref>
                 <Image src={rndl} alt="RNDL" className="rounded shadow-sm" />
               </Link>
@@ -98,7 +98,7 @@ const Products = () => {
           </Col>
 
           <Col className="text-center m-3">
-            <Card style={{ width: "240px", height: "150px" }}>
+            <Card className="product-card">
               <Link href="/target" passHref>
                 <Image
                   src={target}
@@ -110,7 +110,7 @@ const Products = () => {
           </Col>
 
           <Col className="text-center m-3">
-            <Card style={{ width: "240px", height: "150px" }}>
+            <Card className="product-card">
               <Link href="/walmart" passHref>
                 <Image
                   src={Walmart}
