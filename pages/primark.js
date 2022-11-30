@@ -5,18 +5,22 @@ const Primark = () => {
     {
       id: 1,
       image: "/images/pri1.jfif",
+      secondimage: "/images/pri1.jfif",
     },
     {
       id: 2,
       image: "/images/pri2.jpg",
+      secondimage: "/images/pri2.jpg",
     },
     {
       id: 3,
-      image: "/images/pri3.jpg",
+      image: "/images/primark12.jpg",
+      secondimage: "/images/primark13.jpg",
     },
     {
       id: 4,
-      image: "/images/tar40.png",
+      image: "/images/primark14.jpg",
+      secondimage: "/images/primark14.jpg",
     },
   ];
 
@@ -30,12 +34,12 @@ const Primark = () => {
             <Col sm={3} key={photo.id} className="text-center">
               <ModalImage
                 key={photo}
-                small={photo.image}
+                small={photo.secondimage}
                 large={photo.image}
                 alt={photo.name}
                 hkeyeDownload={true}
                 hkeyeZoom={true}
-                className="gallery-image shadow-sm rounded bg-white m-1 p-3"
+                className="gallery-image shadow-sm rounded bg-white m-1 p-2"
               />
             </Col>
           ))}

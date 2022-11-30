@@ -5,10 +5,10 @@ import george from "../public/images/george.jpg";
 import Kontoor from "../public/images/Kontoor.jpg";
 import matalan from "../public/images/matalan.png";
 import primark from "../public/images/primark.jpg";
-import rndl from "../public/images/rndl.jpg";
+import rndl from "../public/images/RD.jpg";
 import target from "../public/images/target.jpg";
 import Origin from "../public/images/Origin.jpg";
-import Walmart from "../public/images/Walmart.png";
+import Walmart from "../public/images/Walmart1.jpeg";
 import Link from "next/link";
 
 const Products = () => {

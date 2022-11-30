@@ -82,7 +82,7 @@ const Rndl = () => {
 
   return (
     <Container className="mt-3 min-vh-100">
-      <h3 className="text-center fw-bold p-3">Matalan</h3>
+      <h3 className="text-center fw-bold p-3">R&D</h3>
 
       <Row className="justify-content-md-center">
         {photos &&
