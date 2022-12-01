@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import { Col, Row, Container, Card } from "react-bootstrap";
 
@@ -137,7 +136,12 @@ export default function Home() {
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
           <Card>
             <a href="https://www.gap.com/" target="blank">
-              <Image src={gap} alt="GAP" className="rounded shadow-sm" />
+              <Image
+                src={gap}
+                alt="GAP"
+                objectFit="cover"
+                className="rounded shadow-sm"
+              />
             </a>
           </Card>
         </Col>

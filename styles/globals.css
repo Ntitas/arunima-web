@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
 body {
   background-color: rgb(240, 242, 245);
-  font-family: "Arvo", sans-serif;
+  /* font-family: "Arvo", sans-serif; */
+  font-family: "PT Sans", sans-serif !important;
 }
 
 a {
@@ -11,11 +13,25 @@ a {
 
 p {
   text-align: justify;
+  font-size: 17px;
 }
 
 h3,
 h5 {
   color: #10125a !important;
+  font-family: "PT Sans", sans-serif !important;
+}
+
+.golden {
+  color: #997516 !important;
+}
+
+.font {
+  font-size: 18px !important;
+}
+
+.navbar-brand {
+  font-size: 23px !important;
 }
 
 .carousel-caption {

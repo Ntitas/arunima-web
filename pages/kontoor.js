@@ -30,7 +30,7 @@ const Kontoor = () => {
     },
     {
       id: 7,
-      image: "/images/kot7.jpg",
+      image: "/images/kot7.png",
     },
     {
       id: 8,

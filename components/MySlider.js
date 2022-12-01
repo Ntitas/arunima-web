@@ -6,7 +6,7 @@ import sliderImage5 from "../public/images/banner5.jpg";
 
 const MySlider = () => {
   return (
-    <Carousel fade>
+    <Carousel interval={3000}>
       <Carousel.Item>
         <Image
           className="d-block rounded shadow"
