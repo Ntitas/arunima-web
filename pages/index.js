@@ -3,6 +3,7 @@ import { Col, Row, Container, Card } from "react-bootstrap";
 
 import MySlider from "../components/MySlider";
 import Widget from "../components/widget";
+import Certificates from "../components/Certificates";
 
 import logo from "../public/images/logo.png";
 import valuesPic from "../public/images/values.png";
@@ -180,7 +181,7 @@ export default function Home() {
         </Col>
       </Row>
 
-      <Row>
+      <Row className="mb-3">
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
           <Card>
             <a
@@ -223,9 +224,9 @@ export default function Home() {
 
       <h3 className="text-center fw-bold p-3">Certifications</h3>
 
-      <Row className="rounded shadow-sm mb-3 p-5 bg-white">
-        <Image src={certPic} alt="Arunima" className="rounded shadow-sm" />
-      </Row>
+      <div className="rounded shadow-sm mt-1 p-5 bg-white mb-3">
+        <Certificates />
+      </div>
 
       <h3 className="text-center fw-bold p-3">CSR Program</h3>
 

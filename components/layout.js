@@ -22,16 +22,11 @@ const Header = () => {
       variant="light"
       bg="white"
       className="shadow-sm border-bottom"
+      sticky="top"
     >
       <Container>
         <Link href="/">
           <a className="navbar-brand fw-bold">
-            {/* <Image
-              src="/images/logo.png"
-              width="50"
-              height="50"
-              alt="Arunima Group Logo"
-            /> */}
             Arunima <span className="golden">Group</span>
           </a>
         </Link>
