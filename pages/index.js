@@ -124,101 +124,101 @@ export default function Home() {
 
       <Row>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
-          <Card>
-            <a href="https://www.kontoorbrands.com/" target="blank">
+          <a href="https://www.kontoorbrands.com/" target="blank">
+            <Card>
               <Image
                 src={Kontoor}
                 alt="Kontoor"
                 className="rounded shadow-sm"
               />
-            </a>
-          </Card>
+            </Card>
+          </a>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
-          <Card>
-            <a href="https://www.gap.com/" target="blank">
+          <a href="https://www.gap.com/" target="blank">
+            <Card>
               <Image
                 src={gap}
                 alt="GAP"
                 objectFit="cover"
                 className="rounded shadow-sm"
               />
-            </a>
-          </Card>
+            </Card>
+          </a>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
-          <Card>
-            <a href="https://www.walmart.com/" target="blank">
+          <a href="https://www.walmart.com/" target="blank">
+            <Card>
               <Image
                 src={Walmart}
                 alt="WALMART"
                 className="rounded shadow-sm"
               />
-            </a>
-          </Card>
+            </Card>
+          </a>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
-          <Card>
-            <a href="https://www.matalan.co.uk/" target="blank">
+          <a href="https://www.matalan.co.uk/" target="blank">
+            <Card>
               <Image
                 src={matalan}
                 alt="Matalan"
                 className="rounded shadow-sm"
               />
-            </a>
-          </Card>
+            </Card>
+          </a>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
-          <Card>
-            <a href="https://www.primark.com/en-gb" target="blank">
+          <a href="https://www.primark.com/en-gb" target="blank">
+            <Card>
               <Image
                 src={primark}
                 alt="Primark"
                 className="rounded shadow-sm"
               />
-            </a>
-          </Card>
+            </Card>
+          </a>
         </Col>
       </Row>
 
       <Row className="mb-3">
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
-          <Card>
-            <a
-              href="https://global.direct.asda.com/george/clothing/10,default,sc.html"
-              target="blank"
-            >
+          <a
+            href="https://global.direct.asda.com/george/clothing/10,default,sc.html"
+            target="blank"
+          >
+            <Card>
               <Image src={george} alt="George" className="rounded shadow-sm" />
-            </a>
-          </Card>
+            </Card>
+          </a>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
-          <Card>
-            <a href="https://www.target.com/" target="blank">
+          <a href="https://www.target.com/" target="blank">
+            <Card>
               <Image src={target} alt="Target" className="rounded shadow-sm" />
-            </a>
-          </Card>
+            </Card>
+          </a>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
-          <Card>
-            <a href="https://www.belk.com/" target="blank">
+          <a href="https://www.belk.com/" target="blank">
+            <Card>
               <Image src={belk} alt="Belk" className="rounded shadow-sm" />
-            </a>
-          </Card>
+            </Card>
+          </a>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
-          <Card>
-            <a href="https://www.meijer.com/" target="blank">
+          <a href="https://www.meijer.com/" target="blank">
+            <Card>
               <Image src={meijer} alt="Meijer" className="rounded shadow-sm" />
-            </a>
-          </Card>
+            </Card>
+          </a>
         </Col>
         <Col className="rounded shadow-sm m-1 p-2 bg-white">
-          <Card>
-            <a href="https://pepco.eu/" target="blank">
+          <a href="https://pepco.eu/" target="blank">
+            <Card>
               <Image src={pepco} alt="pepco" className="rounded shadow-sm" />
-            </a>
-          </Card>
+            </Card>
+          </a>
         </Col>
       </Row>
 
