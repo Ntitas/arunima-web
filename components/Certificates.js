@@ -19,15 +19,21 @@ const Certificates = () => {
     <Fragment>
       <Row>
         <Col>
-          <Image src={cer1} alt="cer1" />
+          <a href="https://bangladeshaccord.org/" target="blank">
+            <Image src={cer1} alt="cer1" />
+          </a>
         </Col>
 
         <Col>
-          <Image src={cer2} alt="cer2" />
+          <a href="https://www.bangladeshworkersafety.org/" target="blank">
+            <Image src={cer2} alt="cer2" />
+          </a>
         </Col>
 
         <Col>
-          <Image src={cer3} alt="cer3" />
+          <a href="https://betterwork.org/" target="blank">
+            <Image src={cer3} alt="cer3" />
+          </a>
         </Col>
 
         <Col>
@@ -39,28 +45,40 @@ const Certificates = () => {
         </Col>
 
         <Col>
-          <Image src={cer6} alt="cer6" />
+          <a href="https://www.nirapon.org/" target="blank">
+            <Image src={cer6} alt="cer6" />
+          </a>
         </Col>
       </Row>
       <Row>
         <Col>
-          <Image src={cer7} alt="cer7" />
+          <a href="https://www.oeko-tex.com/en/" target="blank">
+            <Image src={cer7} alt="cer7" />
+          </a>
         </Col>
 
         <Col>
-          <Image src={cer9} alt="cer9" />
+          <a href="https://www.rsc-bd.org/en" target="blank">
+            <Image src={cer9} alt="cer9" />
+          </a>
         </Col>
 
         <Col>
-          <Image src={cer10} alt="cer10" />
+          <a href="https://www.scanassociation.com/" target="blank">
+            <Image src={cer10} alt="cer10" />
+          </a>
         </Col>
 
         <Col>
-          <Image src={cer11} alt="cer11" />
+          <a href="https://www.sedex.com/" target="blank">
+            <Image src={cer11} alt="cer11" />
+          </a>
         </Col>
 
         <Col>
-          <Image src={cer12} alt="cer12" />
+          <a href="https://wrapcompliance.org/en/" target="blank">
+            <Image src={cer12} alt="cer12" />
+          </a>
         </Col>
 
         <Col>
