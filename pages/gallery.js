@@ -24,22 +24,6 @@ const Gallery = () => {
       url: "/images/5.jpg",
     },
     {
-      key: 6,
-      image: "/images/picture_6.jpg",
-    },
-    {
-      key: 7,
-      image: "/images/picture_7.jpg",
-    },
-    {
-      key: 8,
-      image: "/images/picture_8.jfif",
-    },
-    {
-      key: 9,
-      image: "/images/picture_9.jpg",
-    },
-    {
       key: 10,
       url: "/images/picture_10.jpg",
     },
@@ -211,7 +195,7 @@ const Gallery = () => {
     },
     {
       key: 50,
-      image: "/images/picture_9.jpg",
+      url: "/images/picture_6.jpg",
     },
     {
       key: 51,
