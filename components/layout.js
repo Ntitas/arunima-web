@@ -26,17 +26,24 @@ const Header = () => {
       sticky="top"
     >
       <Container>
-        <Link href="/">
-          <a className="navbar-brand fw-bold">
-            <img
-              src="/images/logo.png"
-              // width="30"
-              height="30"
-              className="d-inline-block align-top nav-logo"
-              alt=""
-            />{" "}
-            Arunima <span className="golden">Group</span>
-          </a>
+        <Link href="/" passHref>
+          <Navbar.Brand className="fw-bold">
+            <div className="d-flex align-items-center">
+              <div>
+                {" "}
+                <Image
+                  src="/images/logo.png"
+                  width="48"
+                  height="30"
+                  className="nav-logo"
+                  alt=""
+                />
+              </div>
+              <div className="ps-1">
+                Arunima <span className="golden">Group</span>
+              </div>
+            </div>
+          </Navbar.Brand>
         </Link>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

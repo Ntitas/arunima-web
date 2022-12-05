@@ -47,8 +47,8 @@ export default function Home() {
           <p>
             Arunima Group has worked with several renowned brands such as
             Wrangler, Lee, Nautica, North Face, Timberland, Target, Walmart,
-            GAP, George's, Bass Pro, Matalan, Pepco, Primark, Terranova and so
-            no. With full technical support from VF (now Kontoor) engineers,
+            GAP, George&apos;s, Bass Pro, Matalan, Pepco, Primark, Terranova and
+            so no. With full technical support from VF (now Kontoor) engineers,
             Arunima Group has reached its current potential and is growing at a
             significant pace. Arunima Group has exciting plans for the future
             with various upcoming projects and is developing its current ones to
