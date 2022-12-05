@@ -214,7 +214,7 @@ const Gallery = () => {
       <Row className="justify-content-md-center">
         {photos &&
           photos.map((photo) => (
-            <Col sm={3} key={photo.key} className="text-center">
+            <Col sm={4} key={photo.key} className="text-center">
               <ModalImage
                 key={photo}
                 small={photo.url}
@@ -222,7 +222,7 @@ const Gallery = () => {
                 alt={photo.name}
                 hkeyeDownload={true}
                 hkeyeZoom={true}
-                className="gallery-image shadow-sm rounded bg-white m-1 p-3"
+                className="only-gallery-image shadow-sm rounded bg-white m-1 p-3"
               />
             </Col>
           ))}

@@ -87,6 +87,10 @@ const Walmart = () => {
       id: 4,
       image: "/images/wal20.jfif",
     },
+    {
+      id: 4,
+      image: "/images/wal4.jpg",
+    },
   ];
 
   return (
@@ -106,7 +110,7 @@ const Walmart = () => {
       <Row className="justify-content-md-center">
         {photos &&
           photos.map((photo) => (
-            <Col sm={3} key={photo.id} className="text-center">
+            <Col sm={4} key={photo.id} className="text-center">
               <ModalImage
                 key={photo}
                 small={photo.image}

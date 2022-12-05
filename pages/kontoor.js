@@ -428,7 +428,7 @@ const Kontoor = () => {
       <Row className="justify-content-md-center">
         {photos &&
           photos.map((photo) => (
-            <Col sm={3} key={photo.idy} className="text-center">
+            <Col sm={4} key={photo.idy} className="text-center">
               <ModalImage
                 key={photo}
                 small={photo.image}

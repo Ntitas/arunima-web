@@ -31,32 +31,37 @@ export default function Home() {
       <h3 className="text-center fw-bold p-3">About Us</h3>
 
       <Row className="rounded shadow-sm mb-3 p-5 bg-white">
-        <Col sm={8}>
+        <Col>
           <p>
-            The journey of Arunima Group began as a small venture in a
+            The journey of the Arunima Group began as a small venture in a
             two-storied building. Today, its business, in the name of Arunima
             Sports Wear Limited, has evolved into a full-fledged, nine-storied
             establishment working at full capacity. Arunima Group launched with
-            woven tops and slowly developed new lines like knitwear and woven
-            bottoms.
+            woven tops and slowly developed new lines like knitwear, woven
+            bottoms and our latest addition DMC Apparels Limited, a vertically
+            integrated 8 storied building with three floors equipped with modern
+            heavy sewing machines accompanying with an innovative, advanced and
+            eco-friendly Laundry with the core motive of manufacturing Denim
+            wears mainly.
           </p>
           <p>
-            Arunima Group has worked with several well-known/renowned brands
-            such as Wrangler, Lee, Nautica, North Face, Timberland, among many
-            others. With full technical support from VF engineers, Arunima Group
-            has reached its current potential and growing at a significant pace.
-            With the industry flourishing, Arunima Group has exciting plans for
-            the future with various upcoming projects and developing its current
-            ones to reach its full potential.
+            Arunima Group has worked with several renowned brands such as
+            Wrangler, Lee, Nautica, North Face, Timberland, Target, Walmart,
+            GAP, George's, Bass Pro, Matalan, Pepco, Primark, Terranova and so
+            no. With full technical support from VF (now Kontoor) engineers,
+            Arunima Group has reached its current potential and is growing at a
+            significant pace. Arunima Group has exciting plans for the future
+            with various upcoming projects and is developing its current ones to
+            reach its full potential.
           </p>
         </Col>
-        <Col>
+        {/* <Col>
           <Image
             src={logo}
             className="img-fluid rounded shadow"
             alt="About Us"
           />
-        </Col>
+        </Col> */}
       </Row>
 
       <h3 className="text-center fw-bold p-3">Vision</h3>
@@ -224,9 +229,9 @@ export default function Home() {
 
       <h3 className="text-center fw-bold p-3">Certifications</h3>
 
-      <div className="rounded shadow-sm mt-1 p-5 bg-white mb-3">
+      <Row className="rounded shadow-sm mt-1 p-5 bg-white mb-3">
         <Certificates />
-      </div>
+      </Row>
 
       <h3 className="text-center fw-bold p-3">CSR Program</h3>
 

@@ -168,10 +168,10 @@ const Target = () => {
       id: 3,
       image: "/images/tar39.jfif",
     },
-    {
-      id: 4,
-      image: "/images/tar41.png",
-    },
+    // {
+    //   id: 4,
+    //   image: "/images/tar41.png",
+    // },
   ];
 
   return (
@@ -191,7 +191,7 @@ const Target = () => {
       <Row className="justify-content-md-center">
         {photos &&
           photos.map((photo) => (
-            <Col sm={3} key={photo.id} className="text-center">
+            <Col sm={4} key={photo.id} className="text-center">
               <ModalImage
                 key={photo}
                 small={photo.image}

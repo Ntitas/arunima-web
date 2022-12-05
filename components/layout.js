@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import logo from "../public/images/logo.png";
 import { Container, Navbar, Nav } from "react-bootstrap";
 
 const Layout = ({ children }) => {
@@ -27,6 +28,13 @@ const Header = () => {
       <Container>
         <Link href="/">
           <a className="navbar-brand fw-bold">
+            <img
+              src="/images/logo.png"
+              // width="30"
+              height="30"
+              className="d-inline-block align-top nav-logo"
+              alt=""
+            />{" "}
             Arunima <span className="golden">Group</span>
           </a>
         </Link>

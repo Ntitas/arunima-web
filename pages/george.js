@@ -97,7 +97,7 @@ const george = () => {
       <Row className="justify-content-md-center">
         {photos &&
           photos.map((photo) => (
-            <Col sm={3} key={photo.key} className="text-center">
+            <Col sm={4} key={photo.key} className="text-center">
               <ModalImage
                 key={photo}
                 small={photo.url}

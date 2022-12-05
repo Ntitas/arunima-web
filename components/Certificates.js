@@ -16,7 +16,7 @@ import { Fragment } from "react";
 
 const Certificates = () => {
   return (
-    <Fragment>
+    <Col>
       <Row>
         <Col>
           <a href="https://bangladeshaccord.org/" target="blank">
@@ -85,7 +85,7 @@ const Certificates = () => {
           <Image src={cer8} alt="cer8" />
         </Col>
       </Row>
-    </Fragment>
+    </Col>
   );
 };
 

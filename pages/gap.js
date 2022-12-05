@@ -83,6 +83,10 @@ const Gap = () => {
       key: 20,
       url: "/images/gap20.jfif",
     },
+    {
+      key: 21,
+      url: "/images/gap4.jpg",
+    },
   ];
 
   return (
@@ -102,7 +106,7 @@ const Gap = () => {
       <Row className="justify-content-md-center">
         {photos &&
           photos.map((photo) => (
-            <Col sm={3} key={photo.key} className="text-center">
+            <Col sm={4} key={photo.key} className="text-center">
               <ModalImage
                 key={photo}
                 small={photo.url}

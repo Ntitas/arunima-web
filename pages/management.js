@@ -20,7 +20,7 @@ const Management = () => {
     },
     {
       id: 3,
-      name: "Fakrul Islam",
+      name: "Farukul Islam",
       desgnation: "Deputy Managing Director",
       email: "faruk@arunima-group.net",
       phone: "+880 1990407000",
@@ -34,7 +34,7 @@ const Management = () => {
       desgnation: "Director",
       email: "taisir@arunima-group.net",
       phone: "+880 1990407000",
-      image: "/images/taisir-huda.jpg",
+      image: "/images/taisir-huda.png",
     },
     {
       id: 2,

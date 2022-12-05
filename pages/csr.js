@@ -7,7 +7,7 @@ const CSR = () => {
     <Container className="mt-3 min-vh-100">
       <h3 className="text-center fw-bold p-3">CSR Activities</h3>
 
-      <Row className="rounded shadow bg-white">
+      <Row className="rounded shadow-sm bg-white">
         <Col sm={7} className="p-5">
           <p className="fs-4">Orientation on basic labor law:</p>
 
