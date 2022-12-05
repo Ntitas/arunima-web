@@ -14,7 +14,7 @@ const MySlider = () => {
           src={sliderImage1}
           alt="First slide"
           width={1400}
-          height={655}
+          height={700}
         />
       </Carousel.Item>
       <Carousel.Item>
@@ -23,7 +23,7 @@ const MySlider = () => {
           src={sliderImage2}
           alt="Secound slide"
           width={1400}
-          height={655}
+          height={700}
         />
       </Carousel.Item>
       <Carousel.Item>
@@ -32,7 +32,7 @@ const MySlider = () => {
           src={sliderImage3}
           alt="Third slide"
           width={1400}
-          height={655}
+          height={700}
         />
       </Carousel.Item>
       <Carousel.Item>
@@ -41,7 +41,7 @@ const MySlider = () => {
           src={sliderImage4}
           alt="Fourth slide"
           width={1400}
-          height={655}
+          height={700}
         />
       </Carousel.Item>
     </Carousel>
