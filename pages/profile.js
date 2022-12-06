@@ -78,7 +78,7 @@ const About = () => {
                       className="border-end-0 border-start-0"
                       onClick={() => setActive("Buyer")}
                     >
-                      Buyer And Exporting Countries
+                      Brands & Exporting Countries
                     </ListGroup.Item>
                     <ListGroup.Item
                       action
@@ -223,74 +223,9 @@ const About = () => {
                     >
                       Capacity
                     </ListGroup.Item>
-                    {/* <ListGroup.Item
-                    action
-                    href="#link22"
-                    className="border-end-0 border-start-0 border-bottom-0"
-                    onClick={() => setActive("Machineries List")}
-                  >
-                    Machineries List
-                  </ListGroup.Item> */}
                   </ListGroup>
                 </Accordion.Body>
               </Accordion.Item>
-              {/* <Accordion.Item eventKey="2">
-              <Accordion.Header>
-                A.Q.N. Business Associates Ltd.
-              </Accordion.Header>
-              <Accordion.Body className="p-0">
-                <ListGroup>
-                  <ListGroup.Item
-                    action
-                    href="#link23"
-                    className="border-end-0 border-start-0 border-top-0"
-                    onClick={() => setActive("About A.Q.N")}
-                  >
-                    About A.Q.N
-                  </ListGroup.Item>
-                  <ListGroup.Item
-                    action
-                    href="#link24"
-                    className="border-end-0 border-start-0"
-                    onClick={() => setActive("Factory Space3")}
-                  >
-                    Factory Space
-                  </ListGroup.Item>
-                  <ListGroup.Item
-                    action
-                    href="#link25"
-                    className="border-end-0 border-start-0"
-                    onClick={() => setActive("Products")}
-                  >
-                    Products
-                  </ListGroup.Item>
-                  <ListGroup.Item
-                    action
-                    href="#link26"
-                    className="border-end-0 border-start-0"
-                    onClick={() => setActive("Machineries List2")}
-                  >
-                    Machineries List
-                  </ListGroup.Item>
-                  <ListGroup.Item
-                    action
-                    href="#link27"
-                    className="border-end-0 border-start-0"
-                    onClick={() => setActive("Employee")}
-                  >
-                    Employee
-                  </ListGroup.Item>
-                  <ListGroup.Item
-                    action
-                    href="#link28"
-                    className="border-end-0 border-start-0 border-bottom-0"
-                    onClick={() => setActive("Contact Of A.Q.N")}
-                  >
-                    Contact Of A.Q.N
-                  </ListGroup.Item>
-                </ListGroup>
-              </Accordion.Body>
-            </Accordion.Item> */}
             </Accordion>
           </Col>
           <Col className="rounded shadow-sm bg-white p-5">
