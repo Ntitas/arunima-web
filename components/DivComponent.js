@@ -138,7 +138,7 @@ const DivComponent = ({ active }) => {
             </tbody>
           </Table>
           <Card body className="mb-3 text-center">
-            USD FOB 55.00 Million
+            ASWL + DMC: USD FOB 55.00 Million
           </Card>
           <h5>Marketing & Merchandising</h5>
           <p>
@@ -526,7 +526,7 @@ const DivComponent = ({ active }) => {
             </tbody>
           </Table>
           <Card body className="text-center">
-            USD FOB 55.00 Million
+            ASWL + DMC: USD FOB 55.00 Million
           </Card>
         </Container>
       )}
