@@ -1,4 +1,5 @@
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import { motion } from "framer-motion";
 
 const Management = () => {
   const top_directors = [
@@ -89,24 +90,32 @@ export default Management;
 
 const PersonCard = (props) => {
   return (
-    <Card className="shadow-sm text-center bg-white">
-      <Card.Img variant="top" src={props.data.image} />
-      <Card.Body>
-        <Card.Title className="fw-bold">{props.data.name}</Card.Title>
-        <Card.Subtitle className="m-2 text-muted">
-          {props.data.desgnation}
-        </Card.Subtitle>
-        <Card.Text className="text-center">Arunima Group</Card.Text>
-        <a href={"tel:" + props.data.phone} className="text-success pe-3">
-          <i className="bi bi-telephone-fill"></i>
-        </a>
-        <a href={"mailto:" + props.data.email} className="text-secondary pe-3">
-          <i className="bi bi-envelope-fill"></i>
-        </a>
-        {/* <a className="text-primary">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 0.7 } }}
+    >
+      <Card className="shadow-sm text-center bg-white">
+        <Card.Img variant="top" src={props.data.image} />
+        <Card.Body>
+          <Card.Title className="fw-bold">{props.data.name}</Card.Title>
+          <Card.Subtitle className="m-2 text-muted">
+            {props.data.desgnation}
+          </Card.Subtitle>
+          <Card.Text className="text-center">Arunima Group</Card.Text>
+          <a href={"tel:" + props.data.phone} className="text-success pe-3">
+            <i className="bi bi-telephone-fill"></i>
+          </a>
+          <a
+            href={"mailto:" + props.data.email}
+            className="text-secondary pe-3"
+          >
+            <i className="bi bi-envelope-fill"></i>
+          </a>
+          {/* <a className="text-primary">
           <i className="bi bi-linkedin"></i>
         </a> */}
-      </Card.Body>
-    </Card>
+        </Card.Body>
+      </Card>
+    </motion.div>
   );
 };

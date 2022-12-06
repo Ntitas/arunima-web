@@ -1,7 +1,31 @@
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import ModalImage from "react-modal-image";
+import { motion } from "framer-motion";
 
 const Gallery = () => {
+  let easing = [0.6, -0.05, 0.01, 0.99];
+
+  const fadeInUp = {
+    initial: {
+      opacity: 0,
+      transition: { duration: 0.6, ease: easing },
+    },
+    animate: {
+      opacity: 1,
+      transition: {
+        duration: 0.9,
+        ease: easing,
+      },
+    },
+  };
+
+  const stagger = {
+    animate: {
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
   const photos = [
     {
       key: 1,
@@ -208,26 +232,31 @@ const Gallery = () => {
   ];
 
   return (
-    <Container className="mt-3 min-vh-100">
-      <h3 className="text-center fw-bold p-3">Gallery</h3>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 1 } }}
+    >
+      <Container className="mt-3 min-vh-100">
+        <h3 className="text-center fw-bold p-3">Gallery</h3>
 
-      <Row className="justify-content-md-center">
-        {photos &&
-          photos.map((photo) => (
-            <Col sm={4} key={photo.key} className="text-center">
-              <ModalImage
-                key={photo}
-                small={photo.url}
-                large={photo.url}
-                alt={photo.name}
-                hkeyeDownload={true}
-                hkeyeZoom={true}
-                className="only-gallery-image shadow-sm rounded bg-white m-1 p-3"
-              />
-            </Col>
-          ))}
-      </Row>
-    </Container>
+        <Row className="justify-content-md-center">
+          {photos &&
+            photos.map((photo) => (
+              <Col key={photo.key} sm="4" className="text-center">
+                <ModalImage
+                  key={photo}
+                  small={photo.url}
+                  large={photo.url}
+                  alt={photo.name}
+                  hkeyeDownload={true}
+                  hkeyeZoom={true}
+                  className="only-gallery-image shadow-sm rounded bg-white m-1 p-3"
+                />
+              </Col>
+            ))}
+        </Row>
+      </Container>
+    </motion.div>
   );
 };
 

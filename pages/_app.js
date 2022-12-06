@@ -3,10 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/globals.css";
 import Layout from "../components/layout";
 import Head from "next/head";
+import { AnimatePresence } from "framer-motion";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
+    <AnimatePresence exitBeforeEnter>
       <Head>
         <link rel="shortcut icon" href="/images/logo.png" />
         <title>Arunima Group</title>
@@ -16,10 +17,11 @@ function MyApp({ Component, pageProps }) {
           key="title"
         />
       </Head>
+
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </div>
+    </AnimatePresence>
   );
 }
 
