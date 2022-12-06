@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 0.7 } }}
+      animate={{ opacity: 1, transition: { duration: 1 } }}
     >
       <Container className="mt-3 min-vh-100">
         <h3 className="text-center fw-bold p-3">Google Maps</h3>

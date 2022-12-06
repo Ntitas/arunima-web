@@ -92,7 +92,7 @@ const PersonCard = (props) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 0.7 } }}
+      animate={{ opacity: 1, transition: { duration: 1 } }}
     >
       <Card className="shadow-sm text-center bg-white">
         <Card.Img variant="top" src={props.data.image} />
