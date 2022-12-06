@@ -29,7 +29,7 @@ const Header = () => {
         <Link href="/" passHref>
           <Navbar.Brand className="fw-bold">
             <div className="d-flex align-items-center">
-              <div>
+              <div className="mt-2">
                 {" "}
                 <Image
                   src="/images/logo.png"
