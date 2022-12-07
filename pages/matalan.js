@@ -26,21 +26,10 @@ const Matalan = () => {
       id: 1,
       image: "/images/matalan5.jpg",
     },
+
     {
       id: 2,
       image: "/images/matalan2.jpg",
-    },
-    {
-      id: 3,
-      image: "/images/matalan3.jpg",
-    },
-    {
-      id: 4,
-      image: "/images/matalan4.jpg",
-    },
-    {
-      id: 1,
-      image: "/images/matalan1.jfif",
     },
   ];
 
@@ -65,7 +54,7 @@ const Matalan = () => {
         <Row className="justify-content-md-center">
           {photos &&
             photos.map((photo) => (
-              <Col sm={4} key={photo.id} className="text-center">
+              <Col sm={6} key={photo.id} className="text-center">
                 <ModalImage
                   key={photo}
                   small={photo.image}

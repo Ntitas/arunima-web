@@ -13,8 +13,9 @@ const MySlider = () => {
           className="d-block rounded shadow"
           src={sliderImage1}
           alt="First slide"
-          width={1400}
-          height={700}
+          fill
+          // width={1400}
+          height={980}
         />
       </Carousel.Item>
       <Carousel.Item>
@@ -22,8 +23,9 @@ const MySlider = () => {
           className="d-block   rounded shadow"
           src={sliderImage2}
           alt="Secound slide"
-          width={1400}
-          height={700}
+          fill
+          // width={1400}
+          height={980}
         />
       </Carousel.Item>
       <Carousel.Item>
@@ -31,8 +33,9 @@ const MySlider = () => {
           className="d-block   rounded shadow"
           src={sliderImage3}
           alt="Third slide"
-          width={1400}
-          height={700}
+          fill
+          // width={1400}
+          height={980}
         />
       </Carousel.Item>
       <Carousel.Item>
@@ -40,8 +43,9 @@ const MySlider = () => {
           className="d-block   rounded shadow"
           src={sliderImage4}
           alt="Fourth slide"
-          width={1400}
-          height={700}
+          fill
+          // width={1400}
+          height={980}
         />
       </Carousel.Item>
     </Carousel>

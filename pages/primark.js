@@ -19,11 +19,11 @@ const Primark = () => {
       image: "/images/primark12.jpg",
       secondimage: "/images/primark13.jpg",
     },
-    {
-      id: 4,
-      image: "/images/primark14.jpg",
-      secondimage: "/images/primark14.jpg",
-    },
+    // {
+    //   id: 4,
+    //   image: "/images/primark14.jpg",
+    //   secondimage: "/images/primark14.jpg",
+    // },
   ];
 
   return (
@@ -47,7 +47,7 @@ const Primark = () => {
         <Row className="justify-content-md-center">
           {photos &&
             photos.map((photo) => (
-              <Col sm={3} key={photo.id} className="text-center">
+              <Col sm={4} key={photo.id} className="text-center">
                 <ModalImage
                   key={photo}
                   small={photo.secondimage}

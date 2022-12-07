@@ -20,15 +20,6 @@ const Kontoor = () => {
       id: 4,
       image: "/images/kot4.jpg",
     },
-
-    {
-      id: 5,
-      image: "/images/kot5.png",
-    },
-    {
-      id: 6,
-      image: "/images/kot6.png",
-    },
     {
       id: 7,
       image: "/images/kot7.png",
@@ -45,14 +36,6 @@ const Kontoor = () => {
     {
       id: 10,
       image: "/images/kot10.png",
-    },
-    {
-      id: 11,
-      image: "/images/kot11.png",
-    },
-    {
-      id: 12,
-      image: "/images/kot12.png",
     },
 
     {
@@ -433,7 +416,7 @@ const Kontoor = () => {
         <Row className="justify-content-md-center">
           {photos &&
             photos.map((photo) => (
-              <Col sm={4} key={photo.idy} className="text-center">
+              <Col sm={6} key={photo.idy} className="text-center">
                 <ModalImage
                   key={photo}
                   small={photo.image}

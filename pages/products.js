@@ -19,7 +19,7 @@ const Products = () => {
       animate={{ opacity: 1, transition: { duration: 1 } }}
     >
       <Container className="mt-3 min-vh-100">
-        <h3 className="text-center fw-bold">Products</h3>
+        <h3 className="text-center p-3 fw-bold">Products</h3>
 
         <Row>
           <Col className="text-center m-2">

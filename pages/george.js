@@ -11,10 +11,6 @@ const george = () => {
       url: "/images/geo1.jfif",
     },
     {
-      key: 2,
-      url: "/images/geo2.jfif",
-    },
-    {
       key: 3,
       url: "/images/geo3.jpg",
     },
@@ -79,6 +75,10 @@ const george = () => {
       key: 17,
       url: "/images/geo18.jpg",
     },
+    {
+      key: 2,
+      url: "/images/geo2.jpg",
+    },
   ];
 
   return (
@@ -102,7 +102,7 @@ const george = () => {
         <Row className="justify-content-md-center">
           {photos &&
             photos.map((photo) => (
-              <Col sm={4} key={photo.key} className="text-center">
+              <Col sm={6} key={photo.key} className="text-center">
                 <ModalImage
                   key={photo}
                   small={photo.url}

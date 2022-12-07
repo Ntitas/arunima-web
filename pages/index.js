@@ -24,10 +24,8 @@ export default function Home() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 1 } }}
     >
-      <Container className="mt-3 min-vh-100">
+      <Container className="mt-2 min-vh-100">
         <Row className="mb-3">
-          {/* <Image src={bannerPic} alt="Arunima" className="rounded shadow-sm" /> */}
-
           <MySlider />
         </Row>
 

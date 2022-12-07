@@ -44,7 +44,7 @@ const Origin = () => {
         <Row className="justify-content-md-center">
           {photos &&
             photos.map((photo) => (
-              <Col sm={3} key={photo.id} className="text-center">
+              <Col sm={6} key={photo.id} className="text-center">
                 <ModalImage
                   key={photo}
                   small={photo.image}

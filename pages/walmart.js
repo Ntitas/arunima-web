@@ -21,77 +21,62 @@ const Walmart = () => {
       id: 4,
       image: "/images/wal4.jpg",
     },
-
     {
-      id: 1,
+      id: 5,
       image: "/images/wal5.jfif",
     },
     {
-      id: 2,
+      id: 6,
       image: "/images/wal6.jpg",
     },
     {
-      id: 3,
+      id: 7,
       image: "/images/wal7.jfif",
     },
     {
-      id: 4,
+      id: 8,
       image: "/images/wal8.jpg",
     },
-
     {
-      id: 1,
+      id: 9,
       image: "/images/wal9.jfif",
     },
     {
-      id: 2,
+      id: 10,
       image: "/images/wal10.jpg",
     },
     {
-      id: 3,
+      id: 11,
       image: "/images/wal11.jfif",
     },
     {
-      id: 4,
+      id: 12,
       image: "/images/wal12.jpg",
     },
 
     {
-      id: 1,
+      id: 13,
       image: "/images/wal13.jpg",
     },
     {
-      id: 2,
+      id: 14,
       image: "/images/wal14.jfif",
     },
     {
-      id: 3,
-      image: "/images/wal15.jfif",
-    },
-    {
-      id: 4,
+      id: 15,
       image: "/images/wal16.jfif",
     },
-
     {
-      id: 1,
-      image: "/images/wal17.jfif",
-    },
-    {
-      id: 2,
-      image: "/images/wal18.jfif",
-    },
-    {
-      id: 3,
+      id: 16,
       image: "/images/wal19.jfif",
     },
     {
-      id: 4,
+      id: 17,
       image: "/images/wal20.jfif",
     },
     {
-      id: 4,
-      image: "/images/wal4.jpg",
+      id: 18,
+      image: "/images/wal15.jfif",
     },
   ];
 

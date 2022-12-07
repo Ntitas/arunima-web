@@ -23,72 +23,72 @@ const Target = () => {
     },
 
     {
-      id: 1,
+      id: 5,
       image: "/images/tar7.jfif",
     },
     {
-      id: 2,
+      id: 6,
       image: "/images/tar5.jpg",
     },
     {
-      id: 3,
+      id: 7,
       image: "/images/tar6.jfif",
     },
     {
-      id: 4,
+      id: 8,
       image: "/images/gap15.jfif",
     },
 
+    // {
+    //   id: 1,
+    //   image: "/images/tar8.jfif",
+    // },
     {
-      id: 1,
-      image: "/images/tar8.jfif",
-    },
-    {
-      id: 2,
+      id: 9,
       image: "/images/tar9.jfif",
     },
     {
-      id: 3,
+      id: 10,
       image: "/images/tar10.jfif",
     },
     {
-      id: 4,
+      id: 11,
       image: "/images/tar12.jpg",
     },
 
     {
-      id: 1,
+      id: 12,
       image: "/images/tar13.jfif",
     },
     {
-      id: 2,
+      id: 13,
       image: "/images/tar16.jfif",
     },
     {
-      id: 3,
+      id: 14,
       image: "/images/tar15.jpg",
     },
-    {
-      id: 4,
-      image: "/images/tar14.jpg",
-    },
+    // {
+    //   id: 4,
+    //   image: "/images/tar14.jpg",
+    // },
 
     {
-      id: 1,
+      id: 15,
       image: "/images/tar17.jfif",
     },
     {
-      id: 2,
+      id: 16,
       image: "/images/tar18.jfif",
     },
     {
-      id: 3,
+      id: 17,
       image: "/images/tar19.jfif",
     },
-    {
-      id: 4,
-      image: "/images/tar20.jfif",
-    },
+    // {
+    //   id: 18,
+    //   image: "/images/tar20.jfif",
+    // },
 
     {
       id: 1,
