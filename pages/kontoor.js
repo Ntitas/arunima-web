@@ -5,6 +5,39 @@ import { motion } from "framer-motion";
 const Kontoor = () => {
   const photos = [
     {
+      id: 13,
+      image: "/images/kot13.png",
+    },
+    {
+      id: 14,
+      image: "/images/kot14.png",
+    },
+    {
+      id: 18,
+      image: "/images/kot18.png",
+    },
+
+    {
+      id: 23,
+      image: "/images/kot23.png",
+    },
+    {
+      id: 39,
+      image: "/images/kot39.png",
+    },
+    {
+      id: 40,
+      image: "/images/kot40.png",
+    },
+    {
+      id: 85,
+      image: "/images/kot85.png",
+    },
+    {
+      id: 83,
+      image: "/images/kot83.png",
+    },
+    {
       id: 1,
       image: "/images/kot1.png",
     },
@@ -39,71 +72,21 @@ const Kontoor = () => {
     },
 
     {
-      id: 13,
-      image: "/images/kot13.png",
-    },
-    {
-      id: 14,
-      image: "/images/kot14.png",
-    },
-    {
-      id: 15,
-      image: "/images/kot15.jpg",
-    },
-    {
-      id: 16,
-      image: "/images/kot16.jfif",
-    },
-
-    {
-      id: 17,
-      image: "/images/kot17.jpg",
-    },
-    {
-      id: 18,
-      image: "/images/kot18.jpg",
-    },
-    {
-      id: 19,
-      image: "/images/kot19.jpg",
-    },
-    {
-      id: 20,
-      image: "/images/kot20.jpg",
-    },
-
-    {
-      id: 21,
-      image: "/images/kot21.jpg",
-    },
-    {
-      id: 22,
-      image: "/images/kot22.jfif",
-    },
-    {
-      id: 23,
-      image: "/images/kot23.jfif",
-    },
-    {
       id: 24,
-      image: "/images/kot24.jfif",
+      image: "/images/kot24.png",
     },
 
     {
       id: 25,
-      image: "/images/kot25.jfif",
+      image: "/images/kot25.png",
     },
     {
       id: 26,
-      image: "/images/kot26.jfif",
-    },
-    {
-      id: 27,
-      image: "/images/kot27.jfif",
+      image: "/images/kot26.png",
     },
     {
       id: 28,
-      image: "/images/kot28.jfif",
+      image: "/images/kot28.png",
     },
 
     {
@@ -112,15 +95,15 @@ const Kontoor = () => {
     },
     {
       id: 30,
-      image: "/images/kot30.jfif",
+      image: "/images/kot30.png",
     },
     {
       id: 31,
-      image: "/images/kot31.jfif",
+      image: "/images/kot31.png",
     },
     {
       id: 32,
-      image: "/images/kot32.jfif",
+      image: "/images/kot32.png",
     },
 
     {
@@ -142,53 +125,30 @@ const Kontoor = () => {
 
     {
       id: 37,
-      image: "/images/kot37.jpg",
+      image: "/images/kot37.png",
     },
     {
       id: 38,
       image: "/images/kot38.jpg",
     },
-    {
-      id: 39,
-      image: "/images/kot39.jpg",
-    },
-    {
-      id: 40,
-      image: "/images/kot40.jpg",
-    },
 
     {
       id: 41,
-      image: "/images/kot41.jpg",
+      image: "/images/kot41.png",
     },
     {
       id: 42,
       image: "/images/kot42.jpg",
-    },
-    {
-      id: 43,
-      image: "/images/kot43.png",
-    },
-    {
-      id: 44,
-      image: "/images/kot44.png",
     },
 
     {
       id: 45,
       image: "/images/kot45.jpg",
     },
-    {
-      id: 46,
-      image: "/images/kot46.png",
-    },
+
     {
       id: 47,
       image: "/images/kot47.png",
-    },
-    {
-      id: 48,
-      image: "/images/kot48.png",
     },
 
     {
@@ -220,10 +180,6 @@ const Kontoor = () => {
       id: 55,
       image: "/images/kot55.png",
     },
-    {
-      id: 56,
-      image: "/images/kot56.png",
-    },
 
     {
       id: 57,
@@ -246,34 +202,14 @@ const Kontoor = () => {
       id: 61,
       image: "/images/kot61.png",
     },
-    {
-      id: 62,
-      image: "/images/kot62.png",
-    },
-    {
-      id: 63,
-      image: "/images/kot63.png",
-    },
+
     {
       id: 64,
       image: "/images/kot64.png",
     },
-
-    {
-      id: 65,
-      image: "/images/kot65.png",
-    },
-    {
-      id: 66,
-      image: "/images/kot66.png",
-    },
-    {
-      id: 67,
-      image: "/images/kot67.png",
-    },
     {
       id: 68,
-      image: "/images/kot68.jfif",
+      image: "/images/kot68.png",
     },
 
     {
@@ -324,29 +260,18 @@ const Kontoor = () => {
     },
     {
       id: 80,
-      image: "/images/kot80.jfif",
+      image: "/images/kot80.png",
     },
     {
       id: 81,
       image: "/images/kot81.jfif",
     },
-    {
-      id: 82,
-      image: "/images/kot82.jfif",
-    },
-    {
-      id: 83,
-      image: "/images/kot83.jpg",
-    },
+
     {
       id: 84,
       image: "/images/kot84.jpg",
     },
 
-    {
-      id: 85,
-      image: "/images/kot85.jpg",
-    },
     {
       id: 86,
       image: "/images/kot86.png",
@@ -363,35 +288,6 @@ const Kontoor = () => {
     {
       id: 89,
       image: "/images/kot57.png",
-    },
-    {
-      id: 90,
-      image: "/images/kot90.png",
-    },
-    {
-      id: 91,
-      image: "/images/kot91.png",
-    },
-    {
-      id: 92,
-      image: "/images/kot92.png",
-    },
-
-    {
-      id: 93,
-      image: "/images/kot898.png",
-    },
-    {
-      id: 94,
-      image: "/images/kot83.jpg",
-    },
-    {
-      id: 95,
-      image: "/images/kot70.png",
-    },
-    {
-      id: 96,
-      image: "/images/kot74.png",
     },
   ];
 
