@@ -129,7 +129,7 @@ export default function Home() {
         <h3 className="text-center fw-bold p-3">Our Clients</h3>
 
         <Row>
-          <Col className="rounded shadow-sm m-1 p-2 bg-white">
+          {/* <Col className="rounded shadow-sm m-1 p-2 bg-white">
             <a href="https://www.kontoorbrands.com/" target="blank">
               <Card>
                 <Image
@@ -139,7 +139,7 @@ export default function Home() {
                 />
               </Card>
             </a>
-          </Col>
+          </Col> */}
           <Col className="rounded shadow-sm m-1 p-2 bg-white">
             <a href="https://www.gap.com/" target="blank">
               <Card>
@@ -185,9 +185,6 @@ export default function Home() {
               </Card>
             </a>
           </Col>
-        </Row>
-
-        <Row className="mb-3">
           <Col className="rounded shadow-sm m-1 p-2 bg-white">
             <a
               href="https://global.direct.asda.com/george/clothing/10,default,sc.html"
@@ -202,6 +199,9 @@ export default function Home() {
               </Card>
             </a>
           </Col>
+        </Row>
+
+        <Row className="mb-3">
           <Col className="rounded shadow-sm m-1 p-2 bg-white">
             <a href="https://www.target.com/" target="blank">
               <Card>
@@ -237,6 +237,13 @@ export default function Home() {
                 <Image src={pepco} alt="pepco" className="rounded shadow-sm" />
               </Card>
             </a>
+          </Col>
+          <Col className="rounded shadow-sm m-1 p-2 ">
+            {/* <a href="https://pepco.eu/" target="blank">
+              <Card>
+                <Image src={pepco} alt="pepco" className="rounded shadow-sm" />
+              </Card>
+            </a> */}
           </Col>
         </Row>
 

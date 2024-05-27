@@ -42,7 +42,7 @@ const Products = () => {
             </Card>
           </Col>
 
-          <Col className="text-center m-2">
+          {/* <Col className="text-center m-2">
             <Card className="product-card">
               <Link href="/kontoor" passHref>
                 <Image
@@ -52,7 +52,8 @@ const Products = () => {
                 />
               </Link>
             </Card>
-          </Col>
+          </Col> */}
+
           <Col className="text-center m-2">
             <Card className="product-card">
               <Link href="/target" passHref>
@@ -64,8 +65,6 @@ const Products = () => {
               </Link>
             </Card>
           </Col>
-        </Row>
-        <Row>
           <Col className="text-center m-2">
             <Card className="product-card">
               <Link href="/matalan" passHref>
@@ -77,7 +76,8 @@ const Products = () => {
               </Link>
             </Card>
           </Col>
-
+        </Row>
+        <Row>
           <Col className="text-center m-2">
             <Card className="product-card">
               <Link href="/origin" passHref>
@@ -109,9 +109,7 @@ const Products = () => {
               </Link>
             </Card>
           </Col>
-        </Row>
-        <Row>
-          <Col className="text-center m-2 pe-4" sm="3">
+          <Col className="text-center m-2">
             <Card className="product-card">
               <Link href="/walmart" passHref>
                 <Image
