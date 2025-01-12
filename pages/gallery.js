@@ -36,18 +36,6 @@ const Gallery = () => {
       url: "/images/picture_2.jpg",
     },
     {
-      key: 3,
-      url: "/images/picture_3.jpg",
-    },
-    {
-      key: 4,
-      url: "/images/picture_4.jpg",
-    },
-    {
-      key: 5,
-      url: "/images/5.jpg",
-    },
-    {
       key: 10,
       url: "/images/picture_10.jpg",
     },
